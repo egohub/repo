@@ -1,0 +1,2628 @@
+<!DOCTYPE html>
+<html lang="en-US" class="no-js">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<link rel="profile" href="http://gmpg.org/xfn/11">
+	<link rel="pingback" href="http://www.googleform.mircode.com/xmlrpc.php">
+	<!--[if lt IE 9]>
+	<script src="http://www.googleform.mircode.com/wp-content/themes/twentyfifteen/js/html5.js"></script>
+	<![endif]-->
+	<script>(function(html){html.className = html.className.replace(/\bno-js\b/,'js')})(document.documentElement);</script>
+<title>GoogleForm | WordPress plugin to embed google form</title>
+<link rel="alternate" type="application/rss+xml" title="GoogleForm &raquo; Feed" href="http://www.googleform.mircode.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="GoogleForm &raquo; Comments Feed" href="http://www.googleform.mircode.com/comments/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"http:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/www.googleform.mircode.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.2.5"}};
+			!function(a,b,c){function d(a){var c=b.createElement("canvas"),d=c.getContext&&c.getContext("2d");return d&&d.fillText?(d.textBaseline="top",d.font="600 32px Arial","flag"===a?(d.fillText(String.fromCharCode(55356,56812,55356,56807),0,0),c.toDataURL().length>3e3):(d.fillText(String.fromCharCode(55357,56835),0,0),0!==d.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='googleform_st_ltr-css'  href='http://www.googleform.mircode.com/wp-content/plugins/googleform/css/googleform_st_ltr.css?ver=4.2.5' type='text/css' media='all' />
+<link rel='stylesheet' id='googleform_custom-css'  href='http://www.googleform.mircode.com/wp-content/plugins/googleform/css/googleform_custom.css?ver=4.2.5' type='text/css' media='all' />
+<link rel='stylesheet' id='twentyfifteen-fonts-css'  href='//fonts.googleapis.com/css?family=Noto+Sans%3A400italic%2C700italic%2C400%2C700%7CNoto+Serif%3A400italic%2C700italic%2C400%2C700%7CInconsolata%3A400%2C700&#038;subset=latin%2Clatin-ext' type='text/css' media='all' />
+<link rel='stylesheet' id='genericons-css'  href='http://www.googleform.mircode.com/wp-content/themes/twentyfifteen/genericons/genericons.css?ver=3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='twentyfifteen-style-css'  href='http://www.googleform.mircode.com/wp-content/themes/twentyfifteen/style.css?ver=4.2.5' type='text/css' media='all' />
+<!--[if lt IE 9]>
+<link rel='stylesheet' id='twentyfifteen-ie-css'  href='http://www.googleform.mircode.com/wp-content/themes/twentyfifteen/css/ie.css?ver=20141010' type='text/css' media='all' />
+<![endif]-->
+<!--[if lt IE 8]>
+<link rel='stylesheet' id='twentyfifteen-ie7-css'  href='http://www.googleform.mircode.com/wp-content/themes/twentyfifteen/css/ie7.css?ver=20141010' type='text/css' media='all' />
+<![endif]-->
+<script type='text/javascript' src='http://www.googleform.mircode.com/wp-includes/js/jquery/jquery.js?ver=1.11.2'></script>
+<script type='text/javascript' src='http://www.googleform.mircode.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript' src='http://www.googleform.mircode.com/wp-content/plugins/googleform/js/googleform.js?ver=4.2.5'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.googleform.mircode.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.googleform.mircode.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.2.5" />
+<link rel='canonical' href='http://www.googleform.mircode.com/' />
+<link rel='shortlink' href='http://www.googleform.mircode.com/' />
+<style type="text/css">
+		.ss-q-title {
+		  color: rgb(80,80,80);
+		  font-weight: 700;
+		  font-size: 14px;
+		  font-style: normal;
+		}
+		.ss-form-container .ss-form-title, .ss-form-container .ss-form-desc, h1.ss-confirmation{text-align: left;color:inherit;display:none}
+		</style></head>
+
+<body class="home page page-id-2 page-template-default">
+<div id="page" class="hfeed site">
+	<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+
+	<div id="sidebar" class="sidebar">
+		<header id="masthead" class="site-header" role="banner">
+			<div class="site-branding">
+										<p class="site-title"><a href="http://www.googleform.mircode.com/" rel="home">GoogleForm</a></p>
+											<p class="site-description">Wordpress plugin to embed google form</p>
+									<button class="secondary-toggle">Menu and widgets</button>
+			</div><!-- .site-branding -->
+		</header><!-- .site-header -->
+
+			<div id="secondary" class="secondary">
+
+		
+		
+					<div id="widget-area" class="widget-area" role="complementary">
+				<aside id="text-2" class="widget widget_text"><h2 class="widget-title">Live Demo:</h2>			<div class="textwidget"><a href="http://www.googleform.mircode.com/">Single Page Form Demo</a><hr/><a href="http://www.googleform.mircode.com/multi-page-google-form/">Multi Page Form Demo</a><hr/></div>
+		</aside>			</div><!-- .widget-area -->
+		
+	</div><!-- .secondary -->
+
+	</div><!-- .sidebar -->
+
+	<div id="content" class="site-content">
+
+	<div id="primary" class="content-area">
+		<main id="main" class="site-main" role="main">
+
+		
+<article id="post-2" class="post-2 page type-page status-publish hentry">
+	
+	<header class="entry-header">
+		<h1 class="entry-title">Sample Google Form</h1>	</header><!-- .entry-header -->
+
+	<div class="entry-content">
+		<div class="googleform"><div>
+
+
+
+
+
+
+
+
+
+<div class="ss-form-container"><div class="ss-header-image-container"><div class="ss-header-image-image"><div class="ss-header-image-sizer"></div></div></div>
+<div class="ss-top-of-page"><div class="ss-form-heading"><h1 class="ss-form-title">Sample Google Form Field Title</h1>
+<div class="ss-form-desc ss-no-ignore-whitespace">Sample form description below title</div>
+
+<div class="ss-required-asterisk">* Required</div></div></div>
+<div class="ss-form"><form action="" method="POST" id="ss-form" target="_self" onsubmit=""><ol>
+<div class="ss-form-question errorbox-good">
+<div class="ss-item ss-item-required ss-text"><div class="ss-form-entry">
+<label class="ss-q-item-label" for="entry_455125655"><div class="ss-q-title">Sample text field
+<label for="itemView.getDomIdToLabel()"></label>
+<span class="ss-required-asterisk">*</span></div>
+<div class="ss-q-help ss-secondary-text"></div></label>
+<input type="text" name="entry.455125655" value="" class="ss-q-short" id="entry_455125655">
+<div class="error-message">This field is required.</div>
+<div class="required-message">This is a required question</div>
+</div></div></div> <div class="ss-form-question errorbox-good">
+<div class="ss-item ss-item-required ss-paragraph-text"><div class="ss-form-entry">
+<label class="ss-q-item-label" for="entry_1675101201"><div class="ss-q-title">Sample paragraph field
+<label for="itemView.getDomIdToLabel()"></label>
+<span class="ss-required-asterisk">*</span></div>
+<div class="ss-q-help ss-secondary-text"></div></label>
+<textarea name="entry.1675101201" rows="8" cols="0" class="ss-q-long" id="entry_1675101201"></textarea>
+<div class="error-message"></div>
+<div class="required-message">This is a required question</div>
+</div></div></div> <div class="ss-form-question errorbox-good">
+<div class="ss-item  ss-scale"><div class="ss-form-entry">
+<label class="ss-q-item-label" for="entry_10618088"><div class="ss-q-title">Sample scale example
+</div>
+<div class="ss-q-help ss-secondary-text"></div></label>
+
+<table><tr><td class="ss-scalenumbers"></td>
+<td class="ss-scalenumbers"><label class="ss-scalenumber" for="group_672125471_1">1</label></td> <td class="ss-scalenumbers"><label class="ss-scalenumber" for="group_672125471_2">2</label></td> <td class="ss-scalenumbers"><label class="ss-scalenumber" for="group_672125471_3">3</label></td> <td class="ss-scalenumbers"><label class="ss-scalenumber" for="group_672125471_4">4</label></td> <td class="ss-scalenumbers"><label class="ss-scalenumber" for="group_672125471_5">5</label></td>
+<td class="ss-scalenumbers"></td></tr>
+<tr><td class="ss-scalerow ss-leftlabel"><div class="aria-todo">Good</div></td>
+<td class="ss-scalerow"><div class="ss-scalerow-fieldcell"><input type="radio" name="entry.672125471" value="1" id="group_672125471_1" class="ss-q-radio"></div></td> <td class="ss-scalerow"><div class="ss-scalerow-fieldcell"><input type="radio" name="entry.672125471" value="2" id="group_672125471_2" class="ss-q-radio"></div></td> <td class="ss-scalerow"><div class="ss-scalerow-fieldcell"><input type="radio" name="entry.672125471" value="3" id="group_672125471_3" class="ss-q-radio"></div></td> <td class="ss-scalerow"><div class="ss-scalerow-fieldcell"><input type="radio" name="entry.672125471" value="4" id="group_672125471_4" class="ss-q-radio"></div></td> <td class="ss-scalerow"><div class="ss-scalerow-fieldcell"><input type="radio" name="entry.672125471" value="5" id="group_672125471_5" class="ss-q-radio"></div></td>
+<td class="ss-scalerow ss-rightlabel">Excellent</td></tr></table>
+<div class="required-message">This is a required question</div></div></div></div> <div class="ss-form-question errorbox-good">
+<div class="ss-item  ss-grid"><div class="ss-form-entry">
+<label class="ss-q-item-label" for="entry_1398923209"><div class="ss-q-title">Sample grid example
+</div>
+<div class="ss-q-help ss-secondary-text"></div></label>
+<div>
+<table><thead><tr><td class="ss-gridnumbers ss-gridrow-leftlabel"></td>
+<td class="ss-gridnumbers" style="width: 33%"><label class="ss-gridnumber">Column 1</label></td> <td class="ss-gridnumbers" style="width: 33%"><label class="ss-gridnumber">Column 2</label></td></tr></thead>
+<tbody><tr class="ss-gridrow ss-grid-row-odd"><td class="ss-gridrow ss-gridrow-leftlabel">Row 1</td>
+<td class="ss-gridrow" style="width: 33%"><label class="ss-grid-button-label"><div class="ss-grid-button-wrapper"><input type="radio" name="entry.270314126" value="Column 1" id="group_270314126_1" class="ss-q-radio"></div></label></td> <td class="ss-gridrow" style="width: 33%"><label class="ss-grid-button-label"><div class="ss-grid-button-wrapper"><input type="radio" name="entry.270314126" value="Column 2" id="group_270314126_2" class="ss-q-radio"></div></label></td></tr> <tr class="ss-gridrow ss-grid-row-even"><td class="ss-gridrow ss-gridrow-leftlabel">Row 2</td>
+<td class="ss-gridrow" style="width: 33%"><label class="ss-grid-button-label"><div class="ss-grid-button-wrapper"><input type="radio" name="entry.808743161" value="Column 1" id="group_808743161_1" class="ss-q-radio"></div></label></td> <td class="ss-gridrow" style="width: 33%"><label class="ss-grid-button-label"><div class="ss-grid-button-wrapper"><input type="radio" name="entry.808743161" value="Column 2" id="group_808743161_2" class="ss-q-radio"></div></label></td></tr></tbody></table>
+<div class="error-message"></div>
+<div class="required-message">Please enter one response per row</div></div></div></div></div> <div class="ss-form-question errorbox-good">
+<div class="ss-item  ss-radio"><div class="ss-form-entry">
+<label class="ss-q-item-label" for="entry_1885690268"><div class="ss-q-title">Sample multiple choise
+</div>
+<div class="ss-q-help ss-secondary-text"></div></label>
+
+<ul><li><label><span class="ss-choice-item-control goog-inline-block"><input type="radio" name="entry.128021291" value="Option 1" id="group_128021291_1" class="ss-q-radio"></span>
+<span class="ss-choice-label">Option 1</span>
+</label></li> <li><label><span class="ss-choice-item-control goog-inline-block"><input type="radio" name="entry.128021291" value="Option 2" id="group_128021291_2" class="ss-q-radio"></span>
+<span class="ss-choice-label">Option 2</span>
+</label></li> <li><label><span class="ss-choice-item-control goog-inline-block"><input type="radio" name="entry.128021291" value="Option 3" id="group_128021291_3" class="ss-q-radio"></span>
+<span class="ss-choice-label">Option 3</span>
+</label></li> <li><label><span class="ss-choice-item-control goog-inline-block"><input type="radio" name="entry.128021291" value="Option 4" id="group_128021291_4" class="ss-q-radio"></span>
+<span class="ss-choice-label">Option 4</span>
+</label></li></ul>
+<div class="error-message"></div>
+<div class="required-message">This is a required question</div></div></div></div> <div class="ss-form-question errorbox-good">
+<div class="ss-item  ss-date"><div class="ss-form-entry">
+<label class="ss-q-item-label" for="entry_1320265987"><div class="ss-q-title">Sample date picker
+</div>
+<div class="ss-q-help ss-secondary-text"></div></label>
+<input type="date" name="entry.1320265987" value="" class="ss-q-date" id="entry_1320265987">
+<div class="required-message">This is a required question</div></div></div></div> <div class="ss-form-question errorbox-good">
+<div class="ss-item  ss-checkbox"><div class="ss-form-entry">
+<label class="ss-q-item-label" for="entry_788297674"><div class="ss-q-title">Sample check box
+</div>
+<div class="ss-q-help ss-secondary-text"></div></label>
+
+<ul><li><label><span class="ss-choice-item-control goog-inline-block"><input type="checkbox" name="entry.798143981" value="Option 1" id="group_798143981_1" class="ss-q-checkbox"></span>
+<span class="ss-choice-label">Option 1</span>
+</label></li> <li><label><span class="ss-choice-item-control goog-inline-block"><input type="checkbox" name="entry.798143981" value="Option 2" id="group_798143981_2" class="ss-q-checkbox"></span>
+<span class="ss-choice-label">Option 2</span>
+</label></li> <li><label><span class="ss-choice-item-control goog-inline-block"><input type="checkbox" name="entry.798143981" value="Option 3" id="group_798143981_3" class="ss-q-checkbox"></span>
+<span class="ss-choice-label">Option 3</span>
+</label></li> <li><label><span class="ss-choice-item-control goog-inline-block"><input type="checkbox" name="entry.798143981" value="Option 4" id="group_798143981_4" class="ss-q-checkbox"></span>
+<span class="ss-choice-label">Option 4</span>
+</label></li></ul>
+<div class="error-message"></div>
+<div class="required-message">This is a required question</div></div></div></div> <div class="ss-form-question errorbox-good">
+<div class="ss-item  ss-time"><div class="ss-form-entry">
+<label class="ss-q-item-label" for="entry_936991533"><div class="ss-q-title">Sample time picker
+</div>
+<div class="ss-q-help ss-secondary-text"></div></label>
+<input type="time" name="entry.936991533" value="" class="ss-q-time" id="entry_936991533">
+<div class="ss-q-time-hint ss-secondary-text">Example: 11:00 AM</div>
+<div class="required-message">This is a required question</div></div></div></div> <div class="ss-form-question errorbox-good">
+<div class="ss-item  ss-select"><div class="ss-form-entry">
+<label class="ss-q-item-label" for="entry_98684717"><div class="ss-q-title">Sample select from list
+</div>
+<div class="ss-q-help ss-secondary-text"></div></label>
+<select name="entry.98684717"><option value=""></option>
+<option value="Option 1">Option 1</option> <option value="Option 2">Option 2</option> <option value="Option 3">Option 3</option> <option value="Option 4">Option 4</option></select>
+<div class="required-message">This is a required question</div></div></div></div>
+<input type="hidden" name="draftResponse" value="[,,&quot;5452897177873404411&quot;]
+">
+<input type="hidden" name="pageHistory" value="0">
+
+<input type="hidden" name="fvv" value="0">
+
+
+<input type="hidden" name="fbzx" value="5452897177873404411">
+
+<div class="ss-item ss-navigate"><table><tbody><tr><td class="ss-form-entry goog-inline-block">
+<input type="submit" name="submit" value="Submit" id="ss-submit" class="jfk-button jfk-button-action ">
+<div class="ss-password-warning ss-secondary-text">Never submit passwords through Google Forms.</div></td>
+</tr></tbody></table></div></ol><input type="hidden" value="czo5NToiaHR0cHM6Ly9kb2NzLmdvb2dsZS5jb20vZm9ybXMvZC8xT1JOdHduY0lTN2oyTmtnWlNtSFN3VWltSG9VTTlWdm80bjBSQmltczhIay9mb3JtUmVzcG9uc2U/aGw9ZW4iOw==" name="googleform-action"><input type="hidden" value="1" name="googleform-form-id"><input type="hidden" value="YToxMTp7czo0OiJmb3JtIjtzOjkxOiJodHRwczovL2RvY3MuZ29vZ2xlLmNvbS9mb3Jtcy9kLzFPUk50d25jSVM3ajJOa2daU21IU3dVaW1Ib1VNOVZ2bzRuMFJCaW1zOEhrL3ZpZXdmb3JtP2hsPWVuIjtzOjM6InVpZCI7czowOiIiO3M6NzoiY29uZmlybSI7TjtzOjU6ImNsYXNzIjtzOjEwOiJnb29nbGVmb3JtIjtzOjEwOiJjc3Nfc3VmZml4IjtOO3M6MTA6ImNzc19wcmVmaXgiO047czo1OiJlbWFpbCI7czozOiJvZmYiO3M6Njoic2VuZHRvIjtOO3M6NzoicmVzdWx0cyI7YjowO3M6NToic3R5bGUiO047czoxNDoidW5pdGV0aGVtZWhhY2siO3M6Mzoib2ZmIjt9" name="googleform-options"></form></div>
+<div class="ss-footer"><div class="ss-attribution"></div>
+<div class="ss-legal"><div class="disclaimer-separator"></div>
+<div class="disclaimer"><div class="powered-by-logo"><span class="powered-by-text">Powered by</span>
+<a href="https://www.google.com/forms/about/?utm_source=product&amp;utm_medium=forms_logo&amp;utm_campaign=forms"><div class="ss-logo-container ss-logo-css-container"><div class="ss-logo-image"></div>
+<span class="aria-only-help">Google Forms</span></div></a></div>
+<div class="ss-terms"><span class="disclaimer-msg">This content is neither created nor endorsed by Google.</span>
+<br>
+<a href="https://docs.google.com/forms/d/1ORNtwncIS7j2NkgZSmHSwUimHoUM9Vvo4n0RBims8Hk/reportabuse?hl=en&amp;source=https://docs.google.com/forms/d/1ORNtwncIS7j2NkgZSmHSwUimHoUM9Vvo4n0RBims8Hk/viewform?hl%3Den">Report Abuse</a>
+-
+<a href="http://www.google.com/accounts/TOS">Terms of Service</a>
+-
+<a href="http://www.google.com/google-d-s/terms.html">Additional Terms</a></div></div></div></div>
+
+<div class="docs-a11y-ariascreenreader-speakable docs-offscreen"></div></div>
+
+
+<!-- Google Forms unnessary Javascript removed -->
+
+<!-- Google Forms unnessary Javascript removed -->
+</div></div>
+			</div><!-- .entry-content -->
+
+	
+</article><!-- #post-## -->
+
+		</main><!-- .site-main -->
+	</div><!-- .content-area -->
+
+
+	</div><!-- .site-content -->
+
+	<footer id="colophon" class="site-footer" role="contentinfo">
+		<div class="site-info">
+						<a href="https://www.mircode.com/">Developed by Mircode Solution</a>
+		</div><!-- .site-info -->
+	</footer><!-- .site-footer -->
+
+</div><!-- .site -->
+
+<style>
+h2.googleform-debug {
+    text-align: center;
+    background-color: #ffebe8;
+    border: 2px solid #ff0000;
+}
+
+div.googleform-debug {
+    padding: 10px;
+    direction: ltr;
+}
+
+div.googleform-debug h2 {
+    background-color: #f00;
+}
+
+div.googleform-debug h3 {
+    padding: 10px;
+    color: #fff;
+    font-weight: bold;
+    border: 1px solid #000000;
+    background-color: #024593;
+}
+
+div.googleform-debug pre {
+    color: #000;
+    text-align: left;
+    border: 1px solid #000000;
+    background-color: #c6dffd;
+}
+</style>
+<script type="text/javascript">
+jQuery(document).ready(function($) {
+        $("div.googleform-debug").hide();
+        $("a.googleform-debug-wrapper").show();
+        $("a.googleform-debug-wrapper").text("Show GoogleForm Debug Content");
+ 
+    $("a.googleform-debug-wrapper").click(function(){
+    $("div.googleform-debug").slideToggle();
+
+    if ($("a.googleform-debug-wrapper").text() == "Show GoogleForm Debug Content")
+        $("a.googleform-debug-wrapper").text("Hide GoogleForm Debug Content");
+    else
+        $("a.googleform-debug-wrapper").text("Show GoogleForm Debug Content");
+    });
+});
+</script>
+<div class="googleform-debug">
+    <h3>gform-debug.php::20::$_SERVER</h3><pre style="text-align:left;">Array
+(
+    [SERVER_SOFTWARE] => Apache
+    [REQUEST_URI] => /
+    [DOCUMENT_ROOT] => /home/bdabecjq/public_html/googleform
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate, sdch
+    [HTTP_ACCEPT_LANGUAGE] => en-GB,en;q=0.8,en-US;q=0.6,my;q=0.4
+    [HTTP_DNT] => 1
+    [HTTP_HOST] => www.googleform.mircode.com
+    [HTTP_REFERER] => http://codecanyon.net/item/wordpress-plugin-to-embed-google-form/full_screen_preview/11474809
+    [HTTP_UPGRADE_INSECURE_REQUESTS] => 1
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36
+    [HTTP_X_FORWARDED_FOR] => 111.84.195.31
+    [PATH] => /bin:/usr/bin
+    [QUERY_STRING] => 
+    [REDIRECT_STATUS] => 200
+    [REMOTE_ADDR] => 111.84.195.31
+    [REMOTE_PORT] => 49390
+    [REQUEST_METHOD] => GET
+    [SCRIPT_FILENAME] => /home/bdabecjq/public_html/googleform/index.php
+    [SCRIPT_NAME] => /index.php
+    [SERVER_ADDR] => 162.213.255.33
+    [SERVER_ADMIN] => webmaster@googleform.mircode.com
+    [SERVER_NAME] => www.googleform.mircode.com
+    [SERVER_PORT] => 80
+    [SERVER_PROTOCOL] => HTTP/1.1
+    [SERVER_SIGNATURE] => 
+    [UNIQUE_ID] => Vn2GFaLV-yAAAVgqOcgAAADM
+    [PHP_SELF] => /index.php
+    [REQUEST_TIME] => 1451066901
+)
+</pre><h3>gform-debug.php::22::$_ENV</h3><pre style="text-align:left;">Array
+(
+    [DOCUMENT_ROOT] => /home/bdabecjq/public_html/googleform
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate, sdch
+    [HTTP_ACCEPT_LANGUAGE] => en-GB,en;q=0.8,en-US;q=0.6,my;q=0.4
+    [HTTP_DNT] => 1
+    [HTTP_HOST] => www.googleform.mircode.com
+    [HTTP_REFERER] => http://codecanyon.net/item/wordpress-plugin-to-embed-google-form/full_screen_preview/11474809
+    [HTTP_UPGRADE_INSECURE_REQUESTS] => 1
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36
+    [HTTP_X_FORWARDED_FOR] => 111.84.195.31
+    [PATH] => /bin:/usr/bin
+    [QUERY_STRING] => 
+    [REDIRECT_STATUS] => 200
+    [REMOTE_ADDR] => 111.84.195.31
+    [REMOTE_PORT] => 49390
+    [REQUEST_METHOD] => GET
+    [REQUEST_URI] => /
+    [SCRIPT_FILENAME] => /home/bdabecjq/public_html/googleform/index.php
+    [SCRIPT_NAME] => /index.php
+    [SERVER_ADDR] => 162.213.255.33
+    [SERVER_ADMIN] => webmaster@googleform.mircode.com
+    [SERVER_NAME] => www.googleform.mircode.com
+    [SERVER_PORT] => 80
+    [SERVER_PROTOCOL] => HTTP/1.1
+    [SERVER_SIGNATURE] => 
+    [SERVER_SOFTWARE] => Apache
+    [UNIQUE_ID] => Vn2GFaLV-yAAAVgqOcgAAADM
+)
+</pre><h3>gform-debug.php::24::$_POST</h3><pre style="text-align:left;">Array
+(
+)
+</pre><h3>gform-debug.php::26::$_GET</h3><pre style="text-align:left;">Array
+(
+)
+</pre><h3>gform-debug.php::28::locale</h3><pre style="text-align:left;">en_US</pre><pre style="text-align:left;">C</pre><h3>gform-debug.php::33::$wp_filter['init']</h3><pre style="text-align:left;">Array
+(
+    [0] => Array
+        (
+            [create_initial_post_types] => Array
+                (
+                    [function] => create_initial_post_types
+                    [accepted_args] => 1
+                )
+
+            [create_initial_taxonomies] => Array
+                (
+                    [function] => create_initial_taxonomies
+                    [accepted_args] => 1
+                )
+
+            [googleform_debug] => Array
+                (
+                    [function] => googleform_debug
+                    [accepted_args] => 1
+                )
+
+        )
+
+    [1] => Array
+        (
+            [wp_widgets_init] => Array
+                (
+                    [function] => wp_widgets_init
+                    [accepted_args] => 1
+                )
+
+        )
+
+    [5] => Array
+        (
+            [smilies_init] => Array
+                (
+                    [function] => smilies_init
+                    [accepted_args] => 1
+                )
+
+        )
+
+    [10] => Array
+        (
+            [wp_cron] => Array
+                (
+                    [function] => wp_cron
+                    [accepted_args] => 1
+                )
+
+            [_show_post_preview] => Array
+                (
+                    [function] => _show_post_preview
+                    [accepted_args] => 1
+                )
+
+            [kses_init] => Array
+                (
+                    [function] => kses_init
+                    [accepted_args] => 1
+                )
+
+            [wp_schedule_update_checks] => Array
+                (
+                    [function] => wp_schedule_update_checks
+                    [accepted_args] => 1
+                )
+
+            [000000000a9fe7960000000075042852add_query_var_vars] => Array
+                (
+                    [function] => Array
+                        (
+                            [0] => BF_Admin_Page_Class Object
+                                (
+                                    [_saved:protected] => 
+                                    [args:protected] => Array
+                                        (
+                                            [menu] => settings
+                                            [page_title] => GoogleForm options
+                                            [capability] => edit_themes
+                                            [option_group] => googleform_options
+                                            [id] => admin_page
+                                            [fields] => Array
+                                                (
+                                                )
+
+                                            [local_images] => 
+                                            [use_with_theme] => 
+                                        )
+
+                                    [option_group:protected] => googleform_options
+                                    [_fields] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [std] => 
+                                                    [id] => TABS
+                                                    [type] => TABS
+                                                    [text] => 
+                                                )
+
+                                            [1] => Array
+                                                (
+                                                    [std] => 
+                                                    [id] => TABS_Listing
+                                                    [links] => Array
+                                                        (
+                                                            [options_1] => Style Options
+                                                            [options_3] => Email Options
+                                                            [options_7] => Import Export
+                                                        )
+
+                                                    [type] => TABS_Listing
+                                                )
+
+                                            [2] => Array
+                                                (
+                                                    [std] => 
+                                                    [id] => options_1
+                                                    [type] => OpenTab
+                                                )
+
+                                            [3] => Array
+                                                (
+                                                    [std] => 
+                                                    [id] => titleStyle Options
+                                                    [type] => title
+                                                    [label] => Style Options
+                                                )
+
+                                            [4] => Array
+                                                (
+                                                    [type] => checkbox
+                                                    [id] => custom_submit_color
+                                                    [std] => 
+                                                    [desc] => Enable custom submit button color
+                                                    [style] => 
+                                                    [name] => Customize Submit button color?
+                                                )
+
+                                            [5] => Array
+                                                (
+                                                    [type] => color
+                                                    [id] => gform_submit_color
+                                                    [std] => 
+                                                    [desc] => 
+                                                    [name] => Submit button color
+                                                )
+
+                                            [6] => Array
+                                                (
+                                                    [type] => text
+                                                    [id] => gform_label_font_sz
+                                                    [std] => 14
+                                                    [desc] => Select font size. Default is 14
+                                                    [style] => 
+                                                    [name] => From label font size 
+                                                    [validate] => Array
+                                                        (
+                                                            [numeric] => Array
+                                                                (
+                                                                    [param] => 
+                                                                    [message] => must be numeric value
+                                                                )
+
+                                                            [minvalue] => Array
+                                                                (
+                                                                    [param] => 10
+                                                                    [message] => must be numeric with a min value of 10
+                                                                )
+
+                                                            [maxvalue] => Array
+                                                                (
+                                                                    [param] => 40
+                                                                    [message] => must be numeric with a Max value of 40
+                                                                )
+
+                                                        )
+
+                                                )
+
+                                            [7] => Array
+                                                (
+                                                    [type] => color
+                                                    [id] => gform_label_color
+                                                    [std] => 
+                                                    [desc] => 
+                                                    [name] => Customize label color 
+                                                )
+
+                                            [8] => Array
+                                                (
+                                                    [type] => color
+                                                    [id] => gform_title_color
+                                                    [std] => 
+                                                    [desc] => 
+                                                    [name] => Customize title color 
+                                                )
+
+                                            [9] => Array
+                                                (
+                                                    [type] => radio
+                                                    [id] => ss_form_title
+                                                    [std] => Array
+                                                        (
+                                                            [0] => left
+                                                        )
+
+                                                    [desc] => 
+                                                    [style] => 
+                                                    [name] => Title position
+                                                    [options] => Array
+                                                        (
+                                                            [left] => Left
+                                                            [right] => Right
+                                                            [center] => Center
+                                                        )
+
+                                                    [multiple] => 
+                                                )
+
+                                            [10] => Array
+                                                (
+                                                    [type] => checkbox
+                                                    [id] => hide_form_title
+                                                    [std] => 
+                                                    [desc] => Enable to hide form title
+                                                    [style] => 
+                                                    [name] => Hide form title?
+                                                )
+
+                                            [11] => Array
+                                                (
+                                                    [type] => checkbox
+                                                    [id] => gf_enable_max_form_width
+                                                    [std] => 
+                                                    [desc] => 
+                                                    [style] => 
+                                                    [name] => Enable max form width?
+                                                )
+
+                                            [12] => Array
+                                                (
+                                                    [type] => text
+                                                    [id] => gf_max_form_width
+                                                    [std] => 500
+                                                    [desc] => Default 500
+                                                    [style] => 
+                                                    [name] => Max form width 
+                                                    [validate] => Array
+                                                        (
+                                                            [numeric] => Array
+                                                                (
+                                                                    [param] => 
+                                                                    [message] => Max width must be a numeric value
+                                                                )
+
+                                                            [minvalue] => Array
+                                                                (
+                                                                    [param] => 100
+                                                                    [message] => Max width must have a min value of 100 
+                                                                )
+
+                                                        )
+
+                                                )
+
+                                            [13] => Array
+                                                (
+                                                    [std] => 
+                                                    [id] => CloseDiv
+                                                    [type] => CloseDiv
+                                                )
+
+                                            [14] => Array
+                                                (
+                                                    [std] => 
+                                                    [id] => options_3
+                                                    [type] => OpenTab
+                                                )
+
+                                            [15] => Array
+                                                (
+                                                    [std] => 
+                                                    [id] => titleEmail Options
+                                                    [type] => title
+                                                    [label] => Email Options
+                                                )
+
+                                            [16] => Array
+                                                (
+                                                    [type] => checkbox
+                                                    [id] => gf_confirmation_email
+                                                    [std] => 
+                                                    [desc] => Enable if you want a confirmation email
+                                                    [style] => 
+                                                    [name] => Enable Confirmation Email 
+                                                )
+
+                                            [17] => Array
+                                                (
+                                                    [type] => text
+                                                    [id] => gf_confirmation_email_address
+                                                    [std] => 
+                                                    [desc] => Customm confirmation email address. you can use multiple email seperated by semicolon(;). Default: admin email
+                                                    [style] => 
+                                                    [name] => Confirmation Email Address
+                                                )
+
+                                            [18] => Array
+                                                (
+                                                    [type] => select
+                                                    [id] => gf_confirmation_email_formet
+                                                    [std] => Array
+                                                        (
+                                                            [0] => html
+                                                        )
+
+                                                    [desc] => Select confirmation email formet
+                                                    [style] => 
+                                                    [name] => Email Formet 
+                                                    [multiple] => 
+                                                    [options] => Array
+                                                        (
+                                                            [html] => html formet
+                                                            [plain] => plain formet
+                                                        )
+
+                                                )
+
+                                            [19] => Array
+                                                (
+                                                    [type] => text
+                                                    [id] => gf_getpost_timeout
+                                                    [std] => 30
+                                                    [desc] => Default 30
+                                                    [style] => 
+                                                    [name] => Response timeout 
+                                                    [validate] => Array
+                                                        (
+                                                            [numeric] => Array
+                                                                (
+                                                                    [param] => 
+                                                                    [message] => Timeout must be a numeric value
+                                                                )
+
+                                                            [minvalue] => Array
+                                                                (
+                                                                    [param] => 5
+                                                                    [message] => Timeout must be with a min value of 5 sec
+                                                                )
+
+                                                            [maxvalue] => Array
+                                                                (
+                                                                    [param] => 120
+                                                                    [message] => Timeout Max value can be 120 sec
+                                                                )
+
+                                                        )
+
+                                                )
+
+                                            [20] => Array
+                                                (
+                                                    [std] => 
+                                                    [id] => CloseDiv
+                                                    [type] => CloseDiv
+                                                )
+
+                                            [21] => Array
+                                                (
+                                                    [std] => 
+                                                    [id] => options_7
+                                                    [type] => OpenTab
+                                                )
+
+                                            [22] => Array
+                                                (
+                                                    [std] => 
+                                                    [id] => titleImport Export
+                                                    [type] => title
+                                                    [label] => Import Export
+                                                )
+
+                                            [23] => Array
+                                                (
+                                                    [type] => import_export
+                                                    [id] => 
+                                                    [value] => 
+                                                )
+
+                                            [24] => Array
+                                                (
+                                                    [std] => 
+                                                    [id] => CloseDiv
+                                                    [type] => CloseDiv
+                                                )
+
+                                            [25] => Array
+                                                (
+                                                    [std] => 
+                                                    [id] => CloseDiv
+                                                    [type] => CloseDiv
+                                                )
+
+                                        )
+
+                                    [table:protected] => 
+                                    [tab_div:protected] => 
+                                    [Top_Slug] => 
+                                    [_Slug] => 
+                                    [_help_tabs] => 
+                                    [_div_or_row] => 
+                                    [saved_flag] => 
+                                    [google_fonts] => 
+                                    [field_types] => Array
+                                        (
+                                        )
+
+                                    [errors] => Array
+                                        (
+                                        )
+
+                                    [errors_flag] => 
+                                    [data_type] => options
+                                )
+
+                            [1] => add_query_var_vars
+                        )
+
+                    [accepted_args] => 1
+                )
+
+            [000000000a9fe7940000000075042852create_googleform_post_type] => Array
+                (
+                    [function] => Array
+                        (
+                            [0] => GoogleForm_Posttype_Controller Object
+                                (
+                                    [post_type:GoogleForm_Posttype_Controller:private] => googleform
+                                    [error_message:GoogleForm_Posttype_Controller:private] => 
+                                )
+
+                            [1] => create_googleform_post_type
+                        )
+
+                    [accepted_args] => 1
+                )
+
+            [000000000a9fe7930000000075042852ProcessGoogleForm] => Array
+                (
+                    [function] => Array
+                        (
+                            [0] => GoogleForm_Core_Controller Object
+                                (
+                                    [post_type:GoogleForm_Core_Controller:private] => 
+                                    [error_message:GoogleForm_Core_Controller:private] => 
+                                )
+
+                            [1] => ProcessGoogleForm
+                        )
+
+                    [accepted_args] => 1
+                )
+
+        )
+
+    [99] => Array
+        (
+            [check_theme_switched] => Array
+                (
+                    [function] => check_theme_switched
+                    [accepted_args] => 1
+                )
+
+        )
+
+)
+</pre><h3>gform-debug.php::37::$wp_filter['template_redirect']</h3><pre style="text-align:left;">Array
+(
+    [11] => Array
+        (
+            [wp_shortlink_header] => Array
+                (
+                    [function] => wp_shortlink_header
+                    [accepted_args] => 0
+                )
+
+        )
+
+    [10] => Array
+        (
+            [wp_old_slug_redirect] => Array
+                (
+                    [function] => wp_old_slug_redirect
+                    [accepted_args] => 1
+                )
+
+            [redirect_canonical] => Array
+                (
+                    [function] => redirect_canonical
+                    [accepted_args] => 1
+                )
+
+            [000000000a9fe7960000000075042852admin_redirect_download_files] => Array
+                (
+                    [function] => Array
+                        (
+                            [0] => BF_Admin_Page_Class Object
+                                (
+                                    [_saved:protected] => 
+                                    [args:protected] => Array
+                                        (
+                                            [menu] => settings
+                                            [page_title] => GoogleForm options
+                                            [capability] => edit_themes
+                                            [option_group] => googleform_options
+                                            [id] => admin_page
+                                            [fields] => Array
+                                                (
+                                                )
+
+                                            [local_images] => 
+                                            [use_with_theme] => 
+                                        )
+
+                                    [option_group:protected] => googleform_options
+                                    [_fields] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [std] => 
+                                                    [id] => TABS
+                                                    [type] => TABS
+                                                    [text] => 
+                                                )
+
+                                            [1] => Array
+                                                (
+                                                    [std] => 
+                                                    [id] => TABS_Listing
+                                                    [links] => Array
+                                                        (
+                                                            [options_1] => Style Options
+                                                            [options_3] => Email Options
+                                                            [options_7] => Import Export
+                                                        )
+
+                                                    [type] => TABS_Listing
+                                                )
+
+                                            [2] => Array
+                                                (
+                                                    [std] => 
+                                                    [id] => options_1
+                                                    [type] => OpenTab
+                                                )
+
+                                            [3] => Array
+                                                (
+                                                    [std] => 
+                                                    [id] => titleStyle Options
+                                                    [type] => title
+                                                    [label] => Style Options
+                                                )
+
+                                            [4] => Array
+                                                (
+                                                    [type] => checkbox
+                                                    [id] => custom_submit_color
+                                                    [std] => 
+                                                    [desc] => Enable custom submit button color
+                                                    [style] => 
+                                                    [name] => Customize Submit button color?
+                                                )
+
+                                            [5] => Array
+                                                (
+                                                    [type] => color
+                                                    [id] => gform_submit_color
+                                                    [std] => 
+                                                    [desc] => 
+                                                    [name] => Submit button color
+                                                )
+
+                                            [6] => Array
+                                                (
+                                                    [type] => text
+                                                    [id] => gform_label_font_sz
+                                                    [std] => 14
+                                                    [desc] => Select font size. Default is 14
+                                                    [style] => 
+                                                    [name] => From label font size 
+                                                    [validate] => Array
+                                                        (
+                                                            [numeric] => Array
+                                                                (
+                                                                    [param] => 
+                                                                    [message] => must be numeric value
+                                                                )
+
+                                                            [minvalue] => Array
+                                                                (
+                                                                    [param] => 10
+                                                                    [message] => must be numeric with a min value of 10
+                                                                )
+
+                                                            [maxvalue] => Array
+                                                                (
+                                                                    [param] => 40
+                                                                    [message] => must be numeric with a Max value of 40
+                                                                )
+
+                                                        )
+
+                                                )
+
+                                            [7] => Array
+                                                (
+                                                    [type] => color
+                                                    [id] => gform_label_color
+                                                    [std] => 
+                                                    [desc] => 
+                                                    [name] => Customize label color 
+                                                )
+
+                                            [8] => Array
+                                                (
+                                                    [type] => color
+                                                    [id] => gform_title_color
+                                                    [std] => 
+                                                    [desc] => 
+                                                    [name] => Customize title color 
+                                                )
+
+                                            [9] => Array
+                                                (
+                                                    [type] => radio
+                                                    [id] => ss_form_title
+                                                    [std] => Array
+                                                        (
+                                                            [0] => left
+                                                        )
+
+                                                    [desc] => 
+                                                    [style] => 
+                                                    [name] => Title position
+                                                    [options] => Array
+                                                        (
+                                                            [left] => Left
+                                                            [right] => Right
+                                                            [center] => Center
+                                                        )
+
+                                                    [multiple] => 
+                                                )
+
+                                            [10] => Array
+                                                (
+                                                    [type] => checkbox
+                                                    [id] => hide_form_title
+                                                    [std] => 
+                                                    [desc] => Enable to hide form title
+                                                    [style] => 
+                                                    [name] => Hide form title?
+                                                )
+
+                                            [11] => Array
+                                                (
+                                                    [type] => checkbox
+                                                    [id] => gf_enable_max_form_width
+                                                    [std] => 
+                                                    [desc] => 
+                                                    [style] => 
+                                                    [name] => Enable max form width?
+                                                )
+
+                                            [12] => Array
+                                                (
+                                                    [type] => text
+                                                    [id] => gf_max_form_width
+                                                    [std] => 500
+                                                    [desc] => Default 500
+                                                    [style] => 
+                                                    [name] => Max form width 
+                                                    [validate] => Array
+                                                        (
+                                                            [numeric] => Array
+                                                                (
+                                                                    [param] => 
+                                                                    [message] => Max width must be a numeric value
+                                                                )
+
+                                                            [minvalue] => Array
+                                                                (
+                                                                    [param] => 100
+                                                                    [message] => Max width must have a min value of 100 
+                                                                )
+
+                                                        )
+
+                                                )
+
+                                            [13] => Array
+                                                (
+                                                    [std] => 
+                                                    [id] => CloseDiv
+                                                    [type] => CloseDiv
+                                                )
+
+                                            [14] => Array
+                                                (
+                                                    [std] => 
+                                                    [id] => options_3
+                                                    [type] => OpenTab
+                                                )
+
+                                            [15] => Array
+                                                (
+                                                    [std] => 
+                                                    [id] => titleEmail Options
+                                                    [type] => title
+                                                    [label] => Email Options
+                                                )
+
+                                            [16] => Array
+                                                (
+                                                    [type] => checkbox
+                                                    [id] => gf_confirmation_email
+                                                    [std] => 
+                                                    [desc] => Enable if you want a confirmation email
+                                                    [style] => 
+                                                    [name] => Enable Confirmation Email 
+                                                )
+
+                                            [17] => Array
+                                                (
+                                                    [type] => text
+                                                    [id] => gf_confirmation_email_address
+                                                    [std] => 
+                                                    [desc] => Customm confirmation email address. you can use multiple email seperated by semicolon(;). Default: admin email
+                                                    [style] => 
+                                                    [name] => Confirmation Email Address
+                                                )
+
+                                            [18] => Array
+                                                (
+                                                    [type] => select
+                                                    [id] => gf_confirmation_email_formet
+                                                    [std] => Array
+                                                        (
+                                                            [0] => html
+                                                        )
+
+                                                    [desc] => Select confirmation email formet
+                                                    [style] => 
+                                                    [name] => Email Formet 
+                                                    [multiple] => 
+                                                    [options] => Array
+                                                        (
+                                                            [html] => html formet
+                                                            [plain] => plain formet
+                                                        )
+
+                                                )
+
+                                            [19] => Array
+                                                (
+                                                    [type] => text
+                                                    [id] => gf_getpost_timeout
+                                                    [std] => 30
+                                                    [desc] => Default 30
+                                                    [style] => 
+                                                    [name] => Response timeout 
+                                                    [validate] => Array
+                                                        (
+                                                            [numeric] => Array
+                                                                (
+                                                                    [param] => 
+                                                                    [message] => Timeout must be a numeric value
+                                                                )
+
+                                                            [minvalue] => Array
+                                                                (
+                                                                    [param] => 5
+                                                                    [message] => Timeout must be with a min value of 5 sec
+                                                                )
+
+                                                            [maxvalue] => Array
+                                                                (
+                                                                    [param] => 120
+                                                                    [message] => Timeout Max value can be 120 sec
+                                                                )
+
+                                                        )
+
+                                                )
+
+                                            [20] => Array
+                                                (
+                                                    [std] => 
+                                                    [id] => CloseDiv
+                                                    [type] => CloseDiv
+                                                )
+
+                                            [21] => Array
+                                                (
+                                                    [std] => 
+                                                    [id] => options_7
+                                                    [type] => OpenTab
+                                                )
+
+                                            [22] => Array
+                                                (
+                                                    [std] => 
+                                                    [id] => titleImport Export
+                                                    [type] => title
+                                                    [label] => Import Export
+                                                )
+
+                                            [23] => Array
+                                                (
+                                                    [type] => import_export
+                                                    [id] => 
+                                                    [value] => 
+                                                )
+
+                                            [24] => Array
+                                                (
+                                                    [std] => 
+                                                    [id] => CloseDiv
+                                                    [type] => CloseDiv
+                                                )
+
+                                            [25] => Array
+                                                (
+                                                    [std] => 
+                                                    [id] => CloseDiv
+                                                    [type] => CloseDiv
+                                                )
+
+                                        )
+
+                                    [table:protected] => 
+                                    [tab_div:protected] => 
+                                    [Top_Slug] => 
+                                    [_Slug] => 
+                                    [_help_tabs] => 
+                                    [_div_or_row] => 
+                                    [saved_flag] => 
+                                    [google_fonts] => 
+                                    [field_types] => Array
+                                        (
+                                        )
+
+                                    [errors] => Array
+                                        (
+                                        )
+
+                                    [errors_flag] => 
+                                    [data_type] => options
+                                )
+
+                            [1] => admin_redirect_download_files
+                        )
+
+                    [accepted_args] => 1
+                )
+
+        )
+
+    [1000] => Array
+        (
+            [wp_redirect_admin_locations] => Array
+                (
+                    [function] => wp_redirect_admin_locations
+                    [accepted_args] => 1
+                )
+
+        )
+
+    [0] => Array
+        (
+            [_wp_admin_bar_init] => Array
+                (
+                    [function] => _wp_admin_bar_init
+                    [accepted_args] => 1
+                )
+
+        )
+
+)
+</pre><h3>class-gform-core-controller.php::427::ProcessGoogleForm</h3><pre style="text-align:left;">Array
+(
+)
+</pre><h3>class-gform-core-controller.php::112::ConstructGoogleForm</h3><pre style="text-align:left;">Array
+(
+)
+</pre><h3>class-gform-core-controller.php::138::ConstructGoogleForm</h3><h3>class-gform-core-controller.php::153::ConstructGoogleForm</h3><h3>class-gform-core-controller.php::218::ConstructGoogleForm</h3><pre style="text-align:left;">Array
+(
+    [headers] =&gt; Array
+        (
+            [content-type] =&gt; text/html; charset=utf-8
+            [x-robots-tag] =&gt; noindex, nofollow, nosnippet
+            [cache-control] =&gt; no-cache, no-store, max-age=0, must-revalidate
+            [pragma] =&gt; no-cache
+            [expires] =&gt; Fri, 01 Jan 1990 00:00:00 GMT
+            [date] =&gt; Fri, 25 Dec 2015 18:08:21 GMT
+            [p3p] =&gt; Array
+                (
+                    [0] =&gt; CP=&quot;This is not a P3P policy! See https://support.google.com/accounts/answer/151657?hl=en for more info.&quot;
+                    [1] =&gt; CP=&quot;This is not a P3P policy! See https://support.google.com/accounts/answer/151657?hl=en for more info.&quot;
+                )
+
+            [x-content-type-options] =&gt; nosniff
+            [x-xss-protection] =&gt; 1; mode=block
+            [server] =&gt; GSE
+            [set-cookie] =&gt; Array
+                (
+                    [0] =&gt; NID=74=H5lgxDscpD3rcRat7EeIrmxra2RvV1qUfigZe3UZn2uknGrbTyZyjrbI0shYKtvBgen7rff2qDWXYdcSjNKfnnWLqGzXN5dda4dXqmCcYYO6x1NkWU7fQ5Q5yKrV-rgX;Domain=.google.com;Path=/;Expires=Sat, 25-Jun-2016 18:08:21 GMT;HttpOnly
+                    [1] =&gt; NID=74=pNfl0CwK7EdG40zlek_eo5w9-TI1OSZAtU8yV_d0HzyMzXvP6lUsG1HyqfhuX-zYwiCN2-TbJG_-w-v7G4kQidYBYwbQJMqJDy9xrvkPcuClubqlXr9JFnbVVec-YzSm;Domain=.google.com;Path=/;Expires=Sat, 25-Jun-2016 18:08:21 GMT;HttpOnly
+                    [2] =&gt; S=spreadsheet_forms=RaujSiqF7Q3wuR_e1oIpPA; Domain=.docs.google.com; Expires=Fri, 25-Dec-2015 19:08:21 GMT; Path=/forms/d/1ORNtwncIS7j2NkgZSmHSwUimHoUM9Vvo4n0RBims8Hk; Secure; HttpOnly; Priority=LOW
+                )
+
+            [alternate-protocol] =&gt; 443:quic,p=1
+            [alt-svc] =&gt; quic=&quot;:443&quot;; ma=604800; v=&quot;30,29,28,27,26,25&quot;
+            [accept-ranges] =&gt; none
+            [vary] =&gt; Accept-Encoding
+        )
+
+    [body] =&gt; &lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.01//EN&quot; &quot;http://www.w3.org/TR/html4/strict.dtd&quot;&gt;&lt;html&gt;&lt;head&gt;
+&lt;link rel=&quot;shortcut icon&quot; href=&quot;https://ssl.gstatic.com/docs/spreadsheets/forms/favicon_qp2.png&quot; type=&quot;image/x-icon&quot;&gt;
+&lt;meta http-equiv=&quot;Content-type&quot; content=&quot;text/html; charset=utf-8&quot;&gt;
+&lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=10; chrome=1;&quot;&gt;
+&lt;meta name=&quot;fragment&quot; content=&quot;!&quot;&gt;
+&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;&gt;
+&lt;base target=&quot;_blank&quot;&gt;
+&lt;title&gt;Sample Google Form Field Title&lt;/title&gt;
+&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;//fonts.googleapis.com/css?family=Roboto:400,700&quot;&gt;
+
+&lt;link href='/static/forms/client/css/1301596772-formview_st_ltr.css' type='text/css' rel='stylesheet'&gt;
+&lt;style type=&quot;text/css&quot;&gt;
+body {
+  background-color: rgb(231,238,247);
+  background-image: url('//ssl.gstatic.com/docs/forms/themes/images/v1/0AX42CRMsmRFbUy03NTAzM2Q4My03ODU1LTQ2NzItODI2YS1kZmU5YzdiMzZjOGQ/blue-stripe-bg.png');
+  background-repeat: repeat;
+  background-position: left top;
+}
+
+.ss-form-container, .ss-resp-card {
+  background-color: rgb(255,255,255);
+}
+
+.ss-footer, .ss-response-footer {
+  background-color: rgb(255,255,255);
+}
+
+.ss-grid-row-odd {
+  background-color: rgb(242,242,242);
+}
+
+.ss-form-container, .ss-resp-card {
+  border-color: rgb(212,212,212);
+}
+
+.ss-form-title {
+  text-align: left;
+}
+
+.ss-form-title[dir=&quot;rtl&quot;] {
+  text-align: right;
+}
+
+.ss-form-desc {
+  text-align: left;
+}
+
+.ss-form-desc[dir=&quot;rtl&quot;] {
+  text-align: right;
+}
+
+.ss-header-image-container {
+  height: 0;
+}
+
+.ss-item {
+  font-size: 1.080rem;
+}
+
+.ss-choices {
+  font-size: 1.000rem;
+}
+
+body {
+  font-family: &quot;Roboto&quot;;
+  color: rgb(119,119,119);
+  font-weight: 400;
+  font-size: 1.080rem;
+  font-style: normal;
+}
+
+.ss-record-username-message {
+  font-family: &quot;Roboto&quot;;
+  color: rgb(119,119,119);
+  font-weight: 400;
+  font-size: 1.080rem;
+  font-style: normal;
+}
+
+.ss-form-title {
+  font-family: &quot;Roboto&quot;;
+  color: rgb(80,80,80);
+  font-weight: 400;
+  font-size: 2.460rem;
+  font-style: normal;
+}
+
+.ss-confirmation {
+  font-family: &quot;Roboto&quot;;
+  color: rgb(80,80,80);
+  font-weight: 400;
+  font-size: 2.460rem;
+  font-style: normal;
+}
+
+.ss-page-title, .ss-section-title {
+  font-family: &quot;Roboto&quot;;
+  color: rgb(80,80,80);
+  font-weight: 400;
+  font-size: 1.845rem;
+  font-style: normal;
+}
+
+.ss-form-desc, .ss-page-description, .ss-section-description {
+  font-family: &quot;Roboto&quot;;
+  color: rgb(140,140,140);
+  font-weight: 400;
+  font-size: 1.080rem;
+  font-style: normal;
+}
+
+.ss-resp-content {
+  font-family: &quot;Roboto&quot;;
+  color: rgb(119,119,119);
+  font-weight: 400;
+  font-size: 1.080rem;
+  font-style: normal;
+}
+
+.ss-q-title {
+  font-family: &quot;Roboto&quot;;
+  color: rgb(80,80,80);
+  font-weight: 700;
+  font-size: 1.080rem;
+  font-style: normal;
+}
+
+.ss-embeddable-object-container .ss-q-title {
+  font-family: &quot;Roboto&quot;;
+  color: rgb(80,80,80);
+  font-weight: 700;
+  font-size: 1.845rem;
+  font-style: normal;
+}
+
+.ss-q-help, .ss-q-time-hint {
+  font-family: &quot;Roboto&quot;;
+  color: rgb(140,140,140);
+  font-weight: 400;
+  font-size: 1.000rem;
+  font-style: normal;
+}
+
+.ss-choice-label, .video-secondary-text, .ss-gridrow-leftlabel, .ss-gridnumber, .ss-scalenumber, .ss-leftlabel, .ss-rightlabel {
+  font-family: &quot;Roboto&quot;;
+  color: rgb(80,80,80);
+  font-weight: 400;
+  font-size: 1.000rem;
+  font-style: normal;
+}
+
+.error-message, .required-message, .ss-required-asterisk {
+  font-family: &quot;Roboto&quot;;
+  color: rgb(196,59,29);
+  font-weight: 400;
+  font-size: 1.000rem;
+  font-style: normal;
+}
+
+.ss-send-email-receipt {
+  font-family: &quot;Roboto&quot;;
+  color: rgb(80,80,80);
+  font-weight: 400;
+  font-size: 1.000rem;
+  font-style: normal;
+}
+
+.ss-password-warning {
+  font-family: &quot;Arial&quot;;
+  color: rgb(119,119,119);
+  font-weight: 400;
+  font-size: 1.000rem;
+  font-style: italic;
+}
+
+.disclaimer {
+  font-family: &quot;Arial&quot;;
+  color: rgb(119,119,119);
+  font-weight: 400;
+  font-size: 0.850rem;
+  font-style: normal;
+}
+
+.ss-footer-content {
+  font-family: &quot;Arial&quot;;
+  color: rgb(80,80,80);
+  font-weight: 400;
+  font-size: 1.000rem;
+  font-style: normal;
+}
+
+.progress-label {
+  font-family: &quot;Roboto&quot;;
+  color: rgb(140,140,140);
+  font-weight: 400;
+  font-size: 1.000rem;
+  font-style: normal;
+}
+
+a:link {
+  color: rgb(0,0,238);
+}
+
+a:visited {
+  color: rgb(85,26,139);
+}
+
+a:active {
+  color: rgb(252,0,0);
+}
+
+input[type='text'], input:not([type]), textarea {
+  font-size: 1.000rem;
+}
+
+.error, .required, .errorbox-bad {
+  border-color: rgb(196,59,29);
+}
+
+.jfk-progressBar-nonBlocking .progress-bar-thumb {
+  background-color: rgb(140,140,140);
+}
+
+.ss-logo-image {
+  background-image: url('//ssl.gstatic.com/docs/forms/forms_logo_2_small_dark.png');
+  background-size: 108px 21px;
+  width: 108px;
+  height: 21px;
+}
+
+@media screen and (-webkit-device-pixel-ratio: 2) {
+.ss-logo-image {
+  background-image: url('//ssl.gstatic.com/docs/forms/forms_logo_2_small_dark_2x.png');
+}
+}
+
+&lt;/style&gt;
+
+
+&lt;link href='/static/forms/client/css/3145455273-mobile_formview_st_ltr.css' type='text/css' rel='stylesheet' media='screen and (max-device-width: 721px)'&gt;
+
+&lt;script type=&quot;text/javascript&quot;&gt;
+          /**
+ * @license
+ *
+ * H5F 1.1.1
+ * See https://github.com/ryanseddon/H5F/ for details.
+ *
+ * Copyright (c) 2013 Ryan Seddon
+ *
+ * Permission is hereby granted, free of charge, to any person
+ * obtaining a copy of this software and associated documentation
+ * files (the &quot;Software&quot;), to deal in the Software without
+ * restriction, including without limitation the rights to use,
+ * copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the
+ * Software is furnished to do so, subject to the following
+ * conditions:
+ *
+ * The above copyright notice and this permission notice shall be
+ * included in all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND,
+ * EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
+ * OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+ * NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT
+ * HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
+ * WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+ * FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
+ * OTHER DEALINGS IN THE SOFTWARE.
+ */
+(function(e,t){&quot;function&quot;==typeof define&amp;&amp;define.amd?define(t):&quot;object&quot;==typeof module&amp;&amp;module.exports?module.exports=t():e.H5F=t()})(this,function(){var e,t,a,i,n,r,l,s,o,u,d,c,v,p,f,m,b,h,g,y,w,C,N,A,E,$,x=document,k=x.createElement(&quot;input&quot;),q=/^[a-zA-Z0-9.!#$%&amp;'*+-\/=?\^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/,M=/[a-z][\-\.+a-z]*:\/\//i,L=/^(input|select|textarea)$/i;return r=function(e,t){var a=!e.nodeType||!1,i={validClass:&quot;valid&quot;,invalidClass:&quot;error&quot;,requiredClass:&quot;required&quot;,placeholderClass:&quot;placeholder&quot;,onSubmit:Function.prototype,onInvalid:Function.prototype};if(&quot;object&quot;==typeof t)for(var r in i)t[r]===void 0&amp;&amp;(t[r]=i[r]);if(n=t||i,a)for(var s=0,o=e.length;o&gt;s;s++)l(e[s]);else l(e)},l=function(a){var i,r=a.elements,l=r.length,c=!!a.attributes.novalidate;if(g(a,&quot;invalid&quot;,o,!0),g(a,&quot;blur&quot;,o,!0),g(a,&quot;input&quot;,o,!0),g(a,&quot;keyup&quot;,o,!0),g(a,&quot;focus&quot;,o,!0),g(a,&quot;change&quot;,o,!0),g(a,&quot;click&quot;,u,!0),g(a,&quot;submit&quot;,function(i){return e=!0,t||c||a.checkValidity()?(n.onSubmit.call(a,i),void 0):(w(i),void 0)},!1),!v())for(a.checkValidity=function(){return d(a)};l--;)i=!!r[l].attributes.required,&quot;fieldset&quot;!==r[l].nodeName.toLowerCase()&amp;&amp;s(r[l])},s=function(e){var t=e,a=h(t),n={type:t.getAttribute(&quot;type&quot;),pattern:t.getAttribute(&quot;pattern&quot;),placeholder:t.getAttribute(&quot;placeholder&quot;)},r=/^(email|url)$/i,l=/^(input|keyup)$/i,s=r.test(n.type)?n.type:n.pattern?n.pattern:!1,o=p(t,s),u=m(t,&quot;step&quot;),v=m(t,&quot;min&quot;),b=m(t,&quot;max&quot;),g=!(&quot;&quot;===t.validationMessage||void 0===t.validationMessage);t.checkValidity=function(){return d.call(this,t)},t.setCustomValidity=function(e){c.call(t,e)},t.validity={valueMissing:a,patternMismatch:o,rangeUnderflow:v,rangeOverflow:b,stepMismatch:u,customError:g,valid:!(a||o||u||v||b||g)},n.placeholder&amp;&amp;!l.test(i)&amp;&amp;f(t)},o=function(e){var t=C(e)||e,a=/^(input|keyup|focusin|focus|change)$/i,r=/^(submit|image|button|reset)$/i,l=/^(checkbox|radio)$/i,u=!0;!L.test(t.nodeName)||r.test(t.type)||r.test(t.nodeName)||(i=e.type,v()||s(t),t.validity.valid&amp;&amp;(&quot;&quot;!==t.value||l.test(t.type))||t.value!==t.getAttribute(&quot;placeholder&quot;)&amp;&amp;t.validity.valid?(A(t,[n.invalidClass,n.requiredClass]),N(t,n.validClass)):a.test(i)?t.validity.valueMissing&amp;&amp;A(t,[n.requiredClass,n.invalidClass,n.validClass]):t.validity.valueMissing?(A(t,[n.invalidClass,n.validClass]),N(t,n.requiredClass)):t.validity.valid||(A(t,[n.validClass,n.requiredClass]),N(t,n.invalidClass)),&quot;input&quot;===i&amp;&amp;u&amp;&amp;(y(t.form,&quot;keyup&quot;,o,!0),u=!1))},d=function(t){var a,i,r,l,s,u=!1;if(&quot;form&quot;===t.nodeName.toLowerCase()){a=t.elements;for(var d=0,c=a.length;c&gt;d;d++)i=a[d],r=!!i.attributes.disabled,l=!!i.attributes.required,s=!!i.attributes.pattern,&quot;fieldset&quot;!==i.nodeName.toLowerCase()&amp;&amp;!r&amp;&amp;(l||s&amp;&amp;l)&amp;&amp;(o(i),i.validity.valid||u||(e&amp;&amp;i.focus(),u=!0,n.onInvalid.call(t,i)));return!u}return o(t),t.validity.valid},c=function(e){var t=this;t.validationMessage=e},u=function(e){var a=C(e);a.attributes.formnovalidate&amp;&amp;&quot;submit&quot;===a.type&amp;&amp;(t=!0)},v=function(){return E(k,&quot;validity&quot;)&amp;&amp;E(k,&quot;checkValidity&quot;)},p=function(e,t){if(&quot;email&quot;===t)return!q.test(e.value);if(&quot;url&quot;===t)return!M.test(e.value);if(t){var i=e.getAttribute(&quot;placeholder&quot;),n=e.value;return a=RegExp(&quot;^(?:&quot;+t+&quot;)$&quot;),n===i?!1:&quot;&quot;===n?!1:!a.test(e.value)}return!1},f=function(e){var t={placeholder:e.getAttribute(&quot;placeholder&quot;)},a=/^(focus|focusin|submit)$/i,r=/^(input|textarea)$/i,l=/^password$/i,s=!!(&quot;placeholder&quot;in k);s||!r.test(e.nodeName)||l.test(e.type)||(&quot;&quot;!==e.value||a.test(i)?e.value===t.placeholder&amp;&amp;a.test(i)&amp;&amp;(e.value=&quot;&quot;,A(e,n.placeholderClass)):(e.value=t.placeholder,g(e.form,&quot;submit&quot;,function(){i=&quot;submit&quot;,f(e)},!0),N(e,n.placeholderClass)))},m=function(e,t){var a=parseInt(e.getAttribute(&quot;min&quot;),10)||0,i=parseInt(e.getAttribute(&quot;max&quot;),10)||!1,n=parseInt(e.getAttribute(&quot;step&quot;),10)||1,r=parseInt(e.value,10),l=(r-a)%n;return h(e)||isNaN(r)?&quot;number&quot;===e.getAttribute(&quot;type&quot;)?!0:!1:&quot;step&quot;===t?e.getAttribute(&quot;step&quot;)?0!==l:!1:&quot;min&quot;===t?e.getAttribute(&quot;min&quot;)?a&gt;r:!1:&quot;max&quot;===t?e.getAttribute(&quot;max&quot;)?r&gt;i:!1:void 0},b=function(e){var t=!!e.attributes.required;return t?h(e):!1},h=function(e){var t=e.getAttribute(&quot;placeholder&quot;),a=/^(checkbox|radio)$/i,i=!!e.attributes.required;return!(!i||&quot;&quot;!==e.value&amp;&amp;e.value!==t&amp;&amp;(!a.test(e.type)||$(e)))},g=function(e,t,a,i){E(window,&quot;addEventListener&quot;)?e.addEventListener(t,a,i):E(window,&quot;attachEvent&quot;)&amp;&amp;window.event!==void 0&amp;&amp;(&quot;blur&quot;===t?t=&quot;focusout&quot;:&quot;focus&quot;===t&amp;&amp;(t=&quot;focusin&quot;),e.attachEvent(&quot;on&quot;+t,a))},y=function(e,t,a,i){E(window,&quot;removeEventListener&quot;)?e.removeEventListener(t,a,i):E(window,&quot;detachEvent&quot;)&amp;&amp;window.event!==void 0&amp;&amp;e.detachEvent(&quot;on&quot;+t,a)},w=function(e){e=e||window.event,e.stopPropagation&amp;&amp;e.preventDefault?(e.stopPropagation(),e.preventDefault()):(e.cancelBubble=!0,e.returnValue=!1)},C=function(e){return e=e||window.event,e.target||e.srcElement},N=function(e,t){var a;e.className?(a=RegExp(&quot;(^|\\s)&quot;+t+&quot;(\\s|$)&quot;),a.test(e.className)||(e.className+=&quot; &quot;+t)):e.className=t},A=function(e,t){var a,i,n=&quot;object&quot;==typeof t?t.length:1,r=n;if(e.className)if(e.className===t)e.className=&quot;&quot;;else for(;n--;)a=RegExp(&quot;(^|\\s)&quot;+(r&gt;1?t[n]:t)+&quot;(\\s|$)&quot;),i=e.className.match(a),i&amp;&amp;3===i.length&amp;&amp;(e.className=e.className.replace(a,i[1]&amp;&amp;i[2]?&quot; &quot;:&quot;&quot;))},E=function(e,t){var a=typeof e[t],i=RegExp(&quot;^function|object$&quot;,&quot;i&quot;);return!!(i.test(a)&amp;&amp;e[t]||&quot;unknown&quot;===a)},$=function(e){for(var t=document.getElementsByName(e.name),a=0;t.length&gt;a;a++)if(t[a].checked)return!0;return!1},{setup:r}});
+
+        &lt;/script&gt;
+&lt;link rel=&quot;alternate&quot; type=&quot;text/xml+oembed&quot; href=&quot;https://docs.google.com/forms/d/1ORNtwncIS7j2NkgZSmHSwUimHoUM9Vvo4n0RBims8Hk/oembed?hl=en&amp;amp;url=https://docs.google.com/forms/d/1ORNtwncIS7j2NkgZSmHSwUimHoUM9Vvo4n0RBims8Hk/viewform?hl%3Den&amp;amp;format=xml&quot;&gt;
+&lt;meta property=&quot;og:title&quot; content=&quot;Sample Google Form Field Title&quot;&gt;&lt;meta property=&quot;og:type&quot; content=&quot;article&quot;&gt;&lt;meta property=&quot;og:site_name&quot; content=&quot;Google Docs&quot;&gt;&lt;meta property=&quot;og:url&quot; content=&quot;https://docs.google.com/forms/d/1ORNtwncIS7j2NkgZSmHSwUimHoUM9Vvo4n0RBims8Hk/viewform?hl=en&amp;amp;usp=embed_facebook&quot;&gt;&lt;meta property=&quot;og:image&quot; content=&quot;https://lh3.googleusercontent.com/z91o5JUcCE_F-rdhY36A91sB5B-IDJlqw6GMEQLIYPROYi1Iq0QbQzFKWPo1T9vbIHA=w1200-h630-p&quot;&gt;&lt;meta property=&quot;og:image:width&quot; content=&quot;1200&quot;&gt;&lt;meta property=&quot;og:image:height&quot; content=&quot;630&quot;&gt;&lt;meta property=&quot;og:description&quot; content=&quot;Sample form description below title&quot;&gt;&lt;meta name=&quot;twitter:card&quot; content=&quot;player&quot;&gt;&lt;meta name=&quot;twitter:title&quot; content=&quot;Sample Google Form Field Title&quot;&gt;&lt;meta name=&quot;twitter:url&quot; content=&quot;https://docs.google.com/forms/d/1ORNtwncIS7j2NkgZSmHSwUimHoUM9Vvo4n0RBims8Hk/viewform?hl=en&amp;amp;usp=embed_twitter&quot;&gt;&lt;meta name=&quot;twitter:image&quot; content=&quot;https://lh3.googleusercontent.com/z91o5JUcCE_F-rdhY36A91sB5B-IDJlqw6GMEQLIYPROYi1Iq0QbQzFKWPo1T9vbIHA=w435-h251-p-b1-c0x00999999&quot;&gt;&lt;meta name=&quot;twitter:player:width&quot; content=&quot;435&quot;&gt;&lt;meta name=&quot;twitter:player:height&quot; content=&quot;251&quot;&gt;&lt;meta name=&quot;twitter:player&quot; content=&quot;https://docs.google.com/forms/d/1ORNtwncIS7j2NkgZSmHSwUimHoUM9Vvo4n0RBims8Hk/viewform?hl=en&amp;amp;embedded=true&amp;amp;usp=embed_twitter&quot;&gt;&lt;meta name=&quot;twitter:description&quot; content=&quot;Sample form description below title&quot;&gt;&lt;meta name=&quot;twitter:site&quot; content=&quot;@googledocs&quot;&gt;
+&lt;/head&gt;
+&lt;body dir=&quot;ltr&quot; class=&quot;ss-base-body&quot;&gt;&lt;div itemscope itemtype=&quot;http://schema.org/CreativeWork/FormObject&quot;&gt;&lt;meta itemprop=&quot;name&quot; content=&quot;Sample Google Form Field Title&quot;&gt;
+&lt;meta itemprop=&quot;description&quot; content=&quot;Sample form description below title&quot;&gt;
+
+&lt;meta itemprop=&quot;url&quot; content=&quot;https://docs.google.com/forms/d/1ORNtwncIS7j2NkgZSmHSwUimHoUM9Vvo4n0RBims8Hk/viewform?hl=en&quot;&gt;
+&lt;meta itemprop=&quot;embedUrl&quot; content=&quot;https://docs.google.com/forms/d/1ORNtwncIS7j2NkgZSmHSwUimHoUM9Vvo4n0RBims8Hk/viewform?hl=en&amp;amp;embedded=true&quot;&gt;
+&lt;meta itemprop=&quot;faviconUrl&quot; content=&quot;https://ssl.gstatic.com/docs/spreadsheets/forms/favicon_qp2.png&quot;&gt;
+
+
+
+
+&lt;div class=&quot;ss-form-container&quot;&gt;&lt;div class=&quot;ss-header-image-container&quot;&gt;&lt;div class=&quot;ss-header-image-image&quot;&gt;&lt;div class=&quot;ss-header-image-sizer&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;div class=&quot;ss-top-of-page&quot;&gt;&lt;div class=&quot;ss-form-heading&quot;&gt;&lt;h1 class=&quot;ss-form-title&quot; dir=&quot;ltr&quot;&gt;Sample Google Form Field Title&lt;/h1&gt;
+&lt;div class=&quot;ss-form-desc ss-no-ignore-whitespace&quot; dir=&quot;ltr&quot;&gt;Sample form description below title&lt;/div&gt;
+
+&lt;div class=&quot;ss-required-asterisk&quot; aria-hidden=&quot;true&quot;&gt;* Required&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;div class=&quot;ss-form&quot;&gt;&lt;form action=&quot;https://docs.google.com/forms/d/1ORNtwncIS7j2NkgZSmHSwUimHoUM9Vvo4n0RBims8Hk/formResponse?hl=en&quot; method=&quot;POST&quot; id=&quot;ss-form&quot; target=&quot;_self&quot; onsubmit=&quot;&quot;&gt;&lt;ol role=&quot;list&quot; class=&quot;ss-question-list&quot; style=&quot;padding-left: 0&quot;&gt;
+&lt;div class=&quot;ss-form-question errorbox-good&quot; role=&quot;listitem&quot;&gt;
+&lt;div dir=&quot;auto&quot; class=&quot;ss-item ss-item-required ss-text&quot;&gt;&lt;div class=&quot;ss-form-entry&quot;&gt;
+&lt;label class=&quot;ss-q-item-label&quot; for=&quot;entry_455125655&quot;&gt;&lt;div class=&quot;ss-q-title&quot;&gt;Sample text field
+&lt;label for=&quot;itemView.getDomIdToLabel()&quot; aria-label=&quot;(Required field)&quot;&gt;&lt;/label&gt;
+&lt;span class=&quot;ss-required-asterisk&quot; aria-hidden=&quot;true&quot;&gt;*&lt;/span&gt;&lt;/div&gt;
+&lt;div class=&quot;ss-q-help ss-secondary-text&quot; dir=&quot;auto&quot;&gt;&lt;/div&gt;&lt;/label&gt;
+&lt;input type=&quot;text&quot; name=&quot;entry.455125655&quot; value=&quot;&quot; class=&quot;ss-q-short&quot; id=&quot;entry_455125655&quot; dir=&quot;auto&quot; aria-label=&quot;Sample text field  This field is required.&quot; aria-required=&quot;true&quot; required=&quot;&quot; pattern=&quot;.*.*&quot; title=&quot;This field is required.&quot;&gt;
+&lt;div class=&quot;error-message&quot; id=&quot;548746755_errorMessage&quot;&gt;This field is required.&lt;/div&gt;
+&lt;div class=&quot;required-message&quot;&gt;This is a required question&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt; &lt;div class=&quot;ss-form-question errorbox-good&quot; role=&quot;listitem&quot;&gt;
+&lt;div dir=&quot;auto&quot; class=&quot;ss-item ss-item-required ss-paragraph-text&quot;&gt;&lt;div class=&quot;ss-form-entry&quot;&gt;
+&lt;label class=&quot;ss-q-item-label&quot; for=&quot;entry_1675101201&quot;&gt;&lt;div class=&quot;ss-q-title&quot;&gt;Sample paragraph field
+&lt;label for=&quot;itemView.getDomIdToLabel()&quot; aria-label=&quot;(Required field)&quot;&gt;&lt;/label&gt;
+&lt;span class=&quot;ss-required-asterisk&quot; aria-hidden=&quot;true&quot;&gt;*&lt;/span&gt;&lt;/div&gt;
+&lt;div class=&quot;ss-q-help ss-secondary-text&quot; dir=&quot;auto&quot;&gt;&lt;/div&gt;&lt;/label&gt;
+&lt;textarea name=&quot;entry.1675101201&quot; rows=&quot;8&quot; cols=&quot;0&quot; class=&quot;ss-q-long&quot; id=&quot;entry_1675101201&quot; dir=&quot;auto&quot; aria-label=&quot;Sample paragraph field  &quot; aria-required=&quot;true&quot; required=&quot;&quot;&gt;&lt;/textarea&gt;
+&lt;div class=&quot;error-message&quot; id=&quot;659823842_errorMessage&quot;&gt;&lt;/div&gt;
+&lt;div class=&quot;required-message&quot;&gt;This is a required question&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt; &lt;div class=&quot;ss-form-question errorbox-good&quot; role=&quot;listitem&quot;&gt;
+&lt;div dir=&quot;auto&quot; class=&quot;ss-item  ss-scale&quot;&gt;&lt;div class=&quot;ss-form-entry&quot;&gt;
+&lt;label class=&quot;ss-q-item-label&quot; for=&quot;entry_10618088&quot;&gt;&lt;div class=&quot;ss-q-title&quot;&gt;Sample scale example
+&lt;/div&gt;
+&lt;div class=&quot;ss-q-help ss-secondary-text&quot; dir=&quot;auto&quot;&gt;&lt;/div&gt;&lt;/label&gt;
+
+&lt;table border=&quot;0&quot; cellpadding=&quot;5&quot; cellspacing=&quot;0&quot; id=&quot;entry_672125471&quot;&gt;&lt;tr aria-hidden=&quot;true&quot;&gt;&lt;td class=&quot;ss-scalenumbers&quot;&gt;&lt;/td&gt;
+&lt;td class=&quot;ss-scalenumbers&quot;&gt;&lt;label class=&quot;ss-scalenumber&quot; for=&quot;group_672125471_1&quot;&gt;1&lt;/label&gt;&lt;/td&gt; &lt;td class=&quot;ss-scalenumbers&quot;&gt;&lt;label class=&quot;ss-scalenumber&quot; for=&quot;group_672125471_2&quot;&gt;2&lt;/label&gt;&lt;/td&gt; &lt;td class=&quot;ss-scalenumbers&quot;&gt;&lt;label class=&quot;ss-scalenumber&quot; for=&quot;group_672125471_3&quot;&gt;3&lt;/label&gt;&lt;/td&gt; &lt;td class=&quot;ss-scalenumbers&quot;&gt;&lt;label class=&quot;ss-scalenumber&quot; for=&quot;group_672125471_4&quot;&gt;4&lt;/label&gt;&lt;/td&gt; &lt;td class=&quot;ss-scalenumbers&quot;&gt;&lt;label class=&quot;ss-scalenumber&quot; for=&quot;group_672125471_5&quot;&gt;5&lt;/label&gt;&lt;/td&gt;
+&lt;td class=&quot;ss-scalenumbers&quot;&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr role=&quot;radiogroup&quot; aria-label=&quot;Sample scale example  Select a value from a range of 1,Good, to 5,Excellent,.&quot;&gt;&lt;td class=&quot;ss-scalerow ss-leftlabel&quot;&gt;&lt;div aria-hidden=&quot;true&quot; class=&quot;aria-todo&quot;&gt;Good&lt;/div&gt;&lt;/td&gt;
+&lt;td class=&quot;ss-scalerow&quot;&gt;&lt;div class=&quot;ss-scalerow-fieldcell&quot;&gt;&lt;input type=&quot;radio&quot; name=&quot;entry.672125471&quot; value=&quot;1&quot; id=&quot;group_672125471_1&quot; role=&quot;radio&quot; class=&quot;ss-q-radio&quot; aria-label=&quot;1&quot;&gt;&lt;/div&gt;&lt;/td&gt; &lt;td class=&quot;ss-scalerow&quot;&gt;&lt;div class=&quot;ss-scalerow-fieldcell&quot;&gt;&lt;input type=&quot;radio&quot; name=&quot;entry.672125471&quot; value=&quot;2&quot; id=&quot;group_672125471_2&quot; role=&quot;radio&quot; class=&quot;ss-q-radio&quot; aria-label=&quot;2&quot;&gt;&lt;/div&gt;&lt;/td&gt; &lt;td class=&quot;ss-scalerow&quot;&gt;&lt;div class=&quot;ss-scalerow-fieldcell&quot;&gt;&lt;input type=&quot;radio&quot; name=&quot;entry.672125471&quot; value=&quot;3&quot; id=&quot;group_672125471_3&quot; role=&quot;radio&quot; class=&quot;ss-q-radio&quot; aria-label=&quot;3&quot;&gt;&lt;/div&gt;&lt;/td&gt; &lt;td class=&quot;ss-scalerow&quot;&gt;&lt;div class=&quot;ss-scalerow-fieldcell&quot;&gt;&lt;input type=&quot;radio&quot; name=&quot;entry.672125471&quot; value=&quot;4&quot; id=&quot;group_672125471_4&quot; role=&quot;radio&quot; class=&quot;ss-q-radio&quot; aria-label=&quot;4&quot;&gt;&lt;/div&gt;&lt;/td&gt; &lt;td class=&quot;ss-scalerow&quot;&gt;&lt;div class=&quot;ss-scalerow-fieldcell&quot;&gt;&lt;input type=&quot;radio&quot; name=&quot;entry.672125471&quot; value=&quot;5&quot; id=&quot;group_672125471_5&quot; role=&quot;radio&quot; class=&quot;ss-q-radio&quot; aria-label=&quot;5&quot;&gt;&lt;/div&gt;&lt;/td&gt;
+&lt;td class=&quot;ss-scalerow ss-rightlabel&quot; aria-hidden=&quot;true&quot;&gt;Excellent&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;div class=&quot;required-message&quot;&gt;This is a required question&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt; &lt;div class=&quot;ss-form-question errorbox-good&quot; role=&quot;listitem&quot;&gt;
+&lt;div dir=&quot;auto&quot; class=&quot;ss-item  ss-grid&quot;&gt;&lt;div class=&quot;ss-form-entry&quot;&gt;
+&lt;label class=&quot;ss-q-item-label&quot; for=&quot;entry_1398923209&quot;&gt;&lt;div class=&quot;ss-q-title&quot;&gt;Sample grid example
+&lt;/div&gt;
+&lt;div class=&quot;ss-q-help ss-secondary-text&quot; dir=&quot;auto&quot;&gt;&lt;/div&gt;&lt;/label&gt;
+&lt;div&gt;
+&lt;table border=&quot;0&quot; cellpadding=&quot;5&quot; cellspacing=&quot;0&quot;&gt;&lt;thead&gt;&lt;tr&gt;&lt;td class=&quot;ss-gridnumbers ss-gridrow-leftlabel&quot;&gt;&lt;/td&gt;
+&lt;td class=&quot;ss-gridnumbers&quot; style=&quot;width: 33%;&quot;&gt;&lt;label class=&quot;ss-gridnumber&quot;&gt;Column 1&lt;/label&gt;&lt;/td&gt; &lt;td class=&quot;ss-gridnumbers&quot; style=&quot;width: 33%;&quot;&gt;&lt;label class=&quot;ss-gridnumber&quot;&gt;Column 2&lt;/label&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/thead&gt;
+&lt;tbody&gt;&lt;tr role=&quot;radiogroup&quot; aria-label=&quot;Row 1&quot; aria-describedby=&quot;1398923209_errorMessage&quot; class=&quot;ss-gridrow ss-grid-row-odd&quot;&gt;&lt;td class=&quot;ss-gridrow ss-gridrow-leftlabel&quot;&gt;Row 1&lt;/td&gt;
+&lt;td class=&quot;ss-gridrow&quot; style=&quot;width: 33%;&quot;&gt;&lt;label class=&quot;ss-grid-button-label&quot;&gt;&lt;div class=&quot;ss-grid-button-wrapper&quot;&gt;&lt;input type=&quot;radio&quot; name=&quot;entry.270314126&quot; value=&quot;Column 1&quot; id=&quot;group_270314126_1&quot; role=&quot;radio&quot; class=&quot;ss-q-radio&quot; aria-label=&quot;Column 1&quot;&gt;&lt;/div&gt;&lt;/label&gt;&lt;/td&gt; &lt;td class=&quot;ss-gridrow&quot; style=&quot;width: 33%;&quot;&gt;&lt;label class=&quot;ss-grid-button-label&quot;&gt;&lt;div class=&quot;ss-grid-button-wrapper&quot;&gt;&lt;input type=&quot;radio&quot; name=&quot;entry.270314126&quot; value=&quot;Column 2&quot; id=&quot;group_270314126_2&quot; role=&quot;radio&quot; class=&quot;ss-q-radio&quot; aria-label=&quot;Column 2&quot;&gt;&lt;/div&gt;&lt;/label&gt;&lt;/td&gt;&lt;/tr&gt; &lt;tr role=&quot;radiogroup&quot; aria-label=&quot;Row 2&quot; aria-describedby=&quot;1398923209_errorMessage&quot; class=&quot;ss-gridrow ss-grid-row-even&quot;&gt;&lt;td class=&quot;ss-gridrow ss-gridrow-leftlabel&quot;&gt;Row 2&lt;/td&gt;
+&lt;td class=&quot;ss-gridrow&quot; style=&quot;width: 33%;&quot;&gt;&lt;label class=&quot;ss-grid-button-label&quot;&gt;&lt;div class=&quot;ss-grid-button-wrapper&quot;&gt;&lt;input type=&quot;radio&quot; name=&quot;entry.808743161&quot; value=&quot;Column 1&quot; id=&quot;group_808743161_1&quot; role=&quot;radio&quot; class=&quot;ss-q-radio&quot; aria-label=&quot;Column 1&quot;&gt;&lt;/div&gt;&lt;/label&gt;&lt;/td&gt; &lt;td class=&quot;ss-gridrow&quot; style=&quot;width: 33%;&quot;&gt;&lt;label class=&quot;ss-grid-button-label&quot;&gt;&lt;div class=&quot;ss-grid-button-wrapper&quot;&gt;&lt;input type=&quot;radio&quot; name=&quot;entry.808743161&quot; value=&quot;Column 2&quot; id=&quot;group_808743161_2&quot; role=&quot;radio&quot; class=&quot;ss-q-radio&quot; aria-label=&quot;Column 2&quot;&gt;&lt;/div&gt;&lt;/label&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;div class=&quot;error-message&quot; id=&quot;1398923209_errorMessage&quot;&gt;&lt;/div&gt;
+&lt;div class=&quot;required-message&quot;&gt;Please enter one response per row&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt; &lt;div class=&quot;ss-form-question errorbox-good&quot; role=&quot;listitem&quot;&gt;
+&lt;div dir=&quot;auto&quot; class=&quot;ss-item  ss-radio&quot;&gt;&lt;div class=&quot;ss-form-entry&quot;&gt;
+&lt;label class=&quot;ss-q-item-label&quot; for=&quot;entry_1885690268&quot;&gt;&lt;div class=&quot;ss-q-title&quot;&gt;Sample multiple choise
+&lt;/div&gt;
+&lt;div class=&quot;ss-q-help ss-secondary-text&quot; dir=&quot;auto&quot;&gt;&lt;/div&gt;&lt;/label&gt;
+
+&lt;ul class=&quot;ss-choices&quot; role=&quot;radiogroup&quot; aria-label=&quot;Sample multiple choise  &quot;&gt;&lt;li class=&quot;ss-choice-item&quot;&gt;&lt;label&gt;&lt;span class=&quot;ss-choice-item-control goog-inline-block&quot;&gt;&lt;input type=&quot;radio&quot; name=&quot;entry.128021291&quot; value=&quot;Option 1&quot; id=&quot;group_128021291_1&quot; role=&quot;radio&quot; class=&quot;ss-q-radio&quot; aria-label=&quot;Option 1&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;ss-choice-label&quot;&gt;Option 1&lt;/span&gt;
+&lt;/label&gt;&lt;/li&gt; &lt;li class=&quot;ss-choice-item&quot;&gt;&lt;label&gt;&lt;span class=&quot;ss-choice-item-control goog-inline-block&quot;&gt;&lt;input type=&quot;radio&quot; name=&quot;entry.128021291&quot; value=&quot;Option 2&quot; id=&quot;group_128021291_2&quot; role=&quot;radio&quot; class=&quot;ss-q-radio&quot; aria-label=&quot;Option 2&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;ss-choice-label&quot;&gt;Option 2&lt;/span&gt;
+&lt;/label&gt;&lt;/li&gt; &lt;li class=&quot;ss-choice-item&quot;&gt;&lt;label&gt;&lt;span class=&quot;ss-choice-item-control goog-inline-block&quot;&gt;&lt;input type=&quot;radio&quot; name=&quot;entry.128021291&quot; value=&quot;Option 3&quot; id=&quot;group_128021291_3&quot; role=&quot;radio&quot; class=&quot;ss-q-radio&quot; aria-label=&quot;Option 3&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;ss-choice-label&quot;&gt;Option 3&lt;/span&gt;
+&lt;/label&gt;&lt;/li&gt; &lt;li class=&quot;ss-choice-item&quot;&gt;&lt;label&gt;&lt;span class=&quot;ss-choice-item-control goog-inline-block&quot;&gt;&lt;input type=&quot;radio&quot; name=&quot;entry.128021291&quot; value=&quot;Option 4&quot; id=&quot;group_128021291_4&quot; role=&quot;radio&quot; class=&quot;ss-q-radio&quot; aria-label=&quot;Option 4&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;ss-choice-label&quot;&gt;Option 4&lt;/span&gt;
+&lt;/label&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;div class=&quot;error-message&quot; id=&quot;1885690268_errorMessage&quot;&gt;&lt;/div&gt;
+&lt;div class=&quot;required-message&quot;&gt;This is a required question&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt; &lt;div class=&quot;ss-form-question errorbox-good&quot; role=&quot;listitem&quot;&gt;
+&lt;div dir=&quot;auto&quot; class=&quot;ss-item  ss-date&quot;&gt;&lt;div class=&quot;ss-form-entry&quot;&gt;
+&lt;label class=&quot;ss-q-item-label&quot; for=&quot;entry_1320265987&quot;&gt;&lt;div class=&quot;ss-q-title&quot;&gt;Sample date picker
+&lt;/div&gt;
+&lt;div class=&quot;ss-q-help ss-secondary-text&quot; dir=&quot;auto&quot;&gt;&lt;/div&gt;&lt;/label&gt;
+&lt;input type=&quot;date&quot; name=&quot;entry.1320265987&quot; value=&quot;&quot; class=&quot;ss-q-date&quot; dir=&quot;auto&quot; id=&quot;entry_1320265987&quot; aria-label=&quot;Sample date picker  &quot;&gt;
+&lt;div class=&quot;required-message&quot;&gt;This is a required question&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt; &lt;div class=&quot;ss-form-question errorbox-good&quot; role=&quot;listitem&quot;&gt;
+&lt;div dir=&quot;auto&quot; class=&quot;ss-item  ss-checkbox&quot;&gt;&lt;div class=&quot;ss-form-entry&quot;&gt;
+&lt;label class=&quot;ss-q-item-label&quot; for=&quot;entry_788297674&quot;&gt;&lt;div class=&quot;ss-q-title&quot;&gt;Sample check box
+&lt;/div&gt;
+&lt;div class=&quot;ss-q-help ss-secondary-text&quot; dir=&quot;auto&quot;&gt;&lt;/div&gt;&lt;/label&gt;
+
+&lt;ul class=&quot;ss-choices&quot; role=&quot;group&quot; aria-label=&quot;Sample check box  &quot;&gt;&lt;li class=&quot;ss-choice-item&quot;&gt;&lt;label&gt;&lt;span class=&quot;ss-choice-item-control goog-inline-block&quot;&gt;&lt;input type=&quot;checkbox&quot; name=&quot;entry.798143981&quot; value=&quot;Option 1&quot; id=&quot;group_798143981_1&quot; role=&quot;checkbox&quot; class=&quot;ss-q-checkbox&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;ss-choice-label&quot;&gt;Option 1&lt;/span&gt;
+&lt;/label&gt;&lt;/li&gt; &lt;li class=&quot;ss-choice-item&quot;&gt;&lt;label&gt;&lt;span class=&quot;ss-choice-item-control goog-inline-block&quot;&gt;&lt;input type=&quot;checkbox&quot; name=&quot;entry.798143981&quot; value=&quot;Option 2&quot; id=&quot;group_798143981_2&quot; role=&quot;checkbox&quot; class=&quot;ss-q-checkbox&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;ss-choice-label&quot;&gt;Option 2&lt;/span&gt;
+&lt;/label&gt;&lt;/li&gt; &lt;li class=&quot;ss-choice-item&quot;&gt;&lt;label&gt;&lt;span class=&quot;ss-choice-item-control goog-inline-block&quot;&gt;&lt;input type=&quot;checkbox&quot; name=&quot;entry.798143981&quot; value=&quot;Option 3&quot; id=&quot;group_798143981_3&quot; role=&quot;checkbox&quot; class=&quot;ss-q-checkbox&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;ss-choice-label&quot;&gt;Option 3&lt;/span&gt;
+&lt;/label&gt;&lt;/li&gt; &lt;li class=&quot;ss-choice-item&quot;&gt;&lt;label&gt;&lt;span class=&quot;ss-choice-item-control goog-inline-block&quot;&gt;&lt;input type=&quot;checkbox&quot; name=&quot;entry.798143981&quot; value=&quot;Option 4&quot; id=&quot;group_798143981_4&quot; role=&quot;checkbox&quot; class=&quot;ss-q-checkbox&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;ss-choice-label&quot;&gt;Option 4&lt;/span&gt;
+&lt;/label&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;div class=&quot;error-message&quot; id=&quot;788297674_errorMessage&quot;&gt;&lt;/div&gt;
+&lt;div class=&quot;required-message&quot;&gt;This is a required question&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt; &lt;div class=&quot;ss-form-question errorbox-good&quot; role=&quot;listitem&quot;&gt;
+&lt;div dir=&quot;auto&quot; class=&quot;ss-item  ss-time&quot;&gt;&lt;div class=&quot;ss-form-entry&quot;&gt;
+&lt;label class=&quot;ss-q-item-label&quot; for=&quot;entry_936991533&quot;&gt;&lt;div class=&quot;ss-q-title&quot;&gt;Sample time picker
+&lt;/div&gt;
+&lt;div class=&quot;ss-q-help ss-secondary-text&quot; dir=&quot;auto&quot;&gt;&lt;/div&gt;&lt;/label&gt;
+&lt;input type=&quot;time&quot; name=&quot;entry.936991533&quot; value=&quot;&quot; class=&quot;ss-q-time&quot; dir=&quot;auto&quot; id=&quot;entry_936991533&quot; aria-label=&quot;Sample time picker  &quot;&gt;
+&lt;div class=&quot;ss-q-time-hint ss-secondary-text&quot;&gt;Example: 11:00 AM&lt;/div&gt;
+&lt;div class=&quot;required-message&quot;&gt;This is a required question&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt; &lt;div class=&quot;ss-form-question errorbox-good&quot; role=&quot;listitem&quot;&gt;
+&lt;div dir=&quot;auto&quot; class=&quot;ss-item  ss-select&quot;&gt;&lt;div class=&quot;ss-form-entry&quot;&gt;
+&lt;label class=&quot;ss-q-item-label&quot; for=&quot;entry_98684717&quot;&gt;&lt;div class=&quot;ss-q-title&quot;&gt;Sample select from list
+&lt;/div&gt;
+&lt;div class=&quot;ss-q-help ss-secondary-text&quot; dir=&quot;auto&quot;&gt;&lt;/div&gt;&lt;/label&gt;
+&lt;select name=&quot;entry.98684717&quot; id=&quot;entry_98684717&quot; aria-label=&quot;Sample select from list  &quot;&gt;&lt;option value=&quot;&quot;&gt;&lt;/option&gt;
+&lt;option value=&quot;Option 1&quot;&gt;Option 1&lt;/option&gt; &lt;option value=&quot;Option 2&quot;&gt;Option 2&lt;/option&gt; &lt;option value=&quot;Option 3&quot;&gt;Option 3&lt;/option&gt; &lt;option value=&quot;Option 4&quot;&gt;Option 4&lt;/option&gt;&lt;/select&gt;
+&lt;div class=&quot;required-message&quot;&gt;This is a required question&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;input type=&quot;hidden&quot; name=&quot;draftResponse&quot; value=&quot;[,,&amp;quot;5452897177873404411&amp;quot;]
+&quot;&gt;
+&lt;input type=&quot;hidden&quot; name=&quot;pageHistory&quot; value=&quot;0&quot;&gt;
+
+&lt;input type=&quot;hidden&quot; name=&quot;fvv&quot; value=&quot;0&quot;&gt;
+
+
+&lt;input type=&quot;hidden&quot; name=&quot;fbzx&quot; value=&quot;5452897177873404411&quot;&gt;
+
+&lt;div class=&quot;ss-item ss-navigate&quot;&gt;&lt;table id=&quot;navigation-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;ss-form-entry goog-inline-block&quot; id=&quot;navigation-buttons&quot; dir=&quot;ltr&quot;&gt;
+&lt;input type=&quot;submit&quot; name=&quot;submit&quot; value=&quot;Submit&quot; id=&quot;ss-submit&quot; class=&quot;jfk-button jfk-button-action &quot;&gt;
+&lt;div class=&quot;ss-password-warning ss-secondary-text&quot;&gt;Never submit passwords through Google Forms.&lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;&lt;/ol&gt;&lt;/form&gt;&lt;/div&gt;
+&lt;div class=&quot;ss-footer&quot;&gt;&lt;div class=&quot;ss-attribution&quot;&gt;&lt;/div&gt;
+&lt;div class=&quot;ss-legal&quot;&gt;&lt;div class=&quot;disclaimer-separator&quot;&gt;&lt;/div&gt;
+&lt;div class=&quot;disclaimer&quot; dir=&quot;ltr&quot;&gt;&lt;div class=&quot;powered-by-logo&quot;&gt;&lt;span class=&quot;powered-by-text&quot;&gt;Powered by&lt;/span&gt;
+&lt;a href=&quot;https://www.google.com/forms/about/?utm_source=product&amp;amp;utm_medium=forms_logo&amp;amp;utm_campaign=forms&quot;&gt;&lt;div class=&quot;ss-logo-container ss-logo-css-container&quot;&gt;&lt;div class=&quot;ss-logo-image&quot;&gt;&lt;/div&gt;
+&lt;span class=&quot;aria-only-help&quot;&gt;Google Forms&lt;/span&gt;&lt;/div&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class=&quot;ss-terms&quot;&gt;&lt;span class=&quot;disclaimer-msg&quot;&gt;This content is neither created nor endorsed by Google.&lt;/span&gt;
+&lt;br&gt;
+&lt;a href=&quot;https://docs.google.com/forms/d/1ORNtwncIS7j2NkgZSmHSwUimHoUM9Vvo4n0RBims8Hk/reportabuse?hl=en&amp;amp;source=https://docs.google.com/forms/d/1ORNtwncIS7j2NkgZSmHSwUimHoUM9Vvo4n0RBims8Hk/viewform?hl%3Den&quot;&gt;Report Abuse&lt;/a&gt;
+-
+&lt;a href=&quot;http://www.google.com/accounts/TOS&quot;&gt;Terms of Service&lt;/a&gt;
+-
+&lt;a href=&quot;http://www.google.com/google-d-s/terms.html&quot;&gt;Additional Terms&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div id=&quot;docs-aria-speakable&quot; class=&quot;docs-a11y-ariascreenreader-speakable docs-offscreen&quot; aria-live=&quot;assertive&quot; role=&quot;region&quot; aria-atomic&gt;&lt;/div&gt;&lt;/div&gt;
+
+
+&lt;script type='text/javascript' src='/static/forms/client/js/1602456285-formviewer_prd.js'&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;H5F.setup(document.getElementById('ss-form'));
+          _initFormViewer(
+            &quot;[100,,[[[455125655,[[2,100,[\x22\x22]\n,\x22This field is required.\x22]\n]\n]\n]\n]\n]\n&quot;);&lt;/script&gt;&lt;/div&gt;&lt;/body&gt;&lt;/html&gt;
+    [response] =&gt; Array
+        (
+            [code] =&gt; 200
+            [message] =&gt; OK
+        )
+
+    [cookies] =&gt; Array
+        (
+            [0] =&gt; WP_Http_Cookie Object
+                (
+                    [name] =&gt; NID
+                    [value] =&gt; 74=H5lgxDscpD3rcRat7EeIrmxra2RvV1qUfigZe3UZn2uknGrbTyZyjrbI0shYKtvBgen7rff2qDWXYdcSjNKfnnWLqGzXN5dda4dXqmCcYYO6x1NkWU7fQ5Q5yKrV-rgX
+                    [expires] =&gt; 1466878101
+                    [path] =&gt; /
+                    [domain] =&gt; .google.com
+                    [httponly] =&gt; 
+                )
+
+            [1] =&gt; WP_Http_Cookie Object
+                (
+                    [name] =&gt; NID
+                    [value] =&gt; 74=pNfl0CwK7EdG40zlek_eo5w9-TI1OSZAtU8yV_d0HzyMzXvP6lUsG1HyqfhuX-zYwiCN2-TbJG_-w-v7G4kQidYBYwbQJMqJDy9xrvkPcuClubqlXr9JFnbVVec-YzSm
+                    [expires] =&gt; 1466878101
+                    [path] =&gt; /
+                    [domain] =&gt; .google.com
+                    [httponly] =&gt; 
+                )
+
+            [2] =&gt; WP_Http_Cookie Object
+                (
+                    [name] =&gt; S
+                    [value] =&gt; spreadsheet_forms=RaujSiqF7Q3wuR_e1oIpPA
+                    [expires] =&gt; 1451070501
+                    [path] =&gt; /forms/d/1ORNtwncIS7j2NkgZSmHSwUimHoUM9Vvo4n0RBims8Hk
+                    [domain] =&gt; .docs.google.com
+                    [secure] =&gt; 
+                    [httponly] =&gt; 
+                    [priority] =&gt; LOW
+                )
+
+        )
+
+    [filename] =&gt; 
+)
+</pre><h3>class-gform-core-controller.php::303::ConstructGoogleForm</h3><pre style="text-align:left;">
+
+
+
+
+
+
+Sample Google Form Field Title
+
+
+
+&lt;style&gt;
+body {
+  background-color: rgb(231,238,247);
+  background-image: url('//ssl.gstatic.com/docs/forms/themes/images/v1/0AX42CRMsmRFbUy03NTAzM2Q4My03ODU1LTQ2NzItODI2YS1kZmU5YzdiMzZjOGQ/blue-stripe-bg.png');
+  background-repeat: repeat;
+  background-position: left top;
+}
+
+.ss-form-container, .ss-resp-card {
+  background-color: rgb(255,255,255);
+}
+
+.ss-footer, .ss-response-footer {
+  background-color: rgb(255,255,255);
+}
+
+.ss-grid-row-odd {
+  background-color: rgb(242,242,242);
+}
+
+.ss-form-container, .ss-resp-card {
+  border-color: rgb(212,212,212);
+}
+
+.ss-form-title {
+  text-align: left;
+}
+
+.ss-form-title[dir=&quot;rtl&quot;] {
+  text-align: right;
+}
+
+.ss-form-desc {
+  text-align: left;
+}
+
+.ss-form-desc[dir=&quot;rtl&quot;] {
+  text-align: right;
+}
+
+.ss-header-image-container {
+  height: 0;
+}
+
+.ss-item {
+  font-size: 1.080rem;
+}
+
+.ss-choices {
+  font-size: 1.000rem;
+}
+
+body {
+  font-family: &quot;Roboto&quot;;
+  color: rgb(119,119,119);
+  font-weight: 400;
+  font-size: 1.080rem;
+  font-style: normal;
+}
+
+.ss-record-username-message {
+  font-family: &quot;Roboto&quot;;
+  color: rgb(119,119,119);
+  font-weight: 400;
+  font-size: 1.080rem;
+  font-style: normal;
+}
+
+.ss-form-title {
+  font-family: &quot;Roboto&quot;;
+  color: rgb(80,80,80);
+  font-weight: 400;
+  font-size: 2.460rem;
+  font-style: normal;
+}
+
+.ss-confirmation {
+  font-family: &quot;Roboto&quot;;
+  color: rgb(80,80,80);
+  font-weight: 400;
+  font-size: 2.460rem;
+  font-style: normal;
+}
+
+.ss-page-title, .ss-section-title {
+  font-family: &quot;Roboto&quot;;
+  color: rgb(80,80,80);
+  font-weight: 400;
+  font-size: 1.845rem;
+  font-style: normal;
+}
+
+.ss-form-desc, .ss-page-description, .ss-section-description {
+  font-family: &quot;Roboto&quot;;
+  color: rgb(140,140,140);
+  font-weight: 400;
+  font-size: 1.080rem;
+  font-style: normal;
+}
+
+.ss-resp-content {
+  font-family: &quot;Roboto&quot;;
+  color: rgb(119,119,119);
+  font-weight: 400;
+  font-size: 1.080rem;
+  font-style: normal;
+}
+
+.ss-q-title {
+  font-family: &quot;Roboto&quot;;
+  color: rgb(80,80,80);
+  font-weight: 700;
+  font-size: 1.080rem;
+  font-style: normal;
+}
+
+.ss-embeddable-object-container .ss-q-title {
+  font-family: &quot;Roboto&quot;;
+  color: rgb(80,80,80);
+  font-weight: 700;
+  font-size: 1.845rem;
+  font-style: normal;
+}
+
+.ss-q-help, .ss-q-time-hint {
+  font-family: &quot;Roboto&quot;;
+  color: rgb(140,140,140);
+  font-weight: 400;
+  font-size: 1.000rem;
+  font-style: normal;
+}
+
+.ss-choice-label, .video-secondary-text, .ss-gridrow-leftlabel, .ss-gridnumber, .ss-scalenumber, .ss-leftlabel, .ss-rightlabel {
+  font-family: &quot;Roboto&quot;;
+  color: rgb(80,80,80);
+  font-weight: 400;
+  font-size: 1.000rem;
+  font-style: normal;
+}
+
+.error-message, .required-message, .ss-required-asterisk {
+  font-family: &quot;Roboto&quot;;
+  color: rgb(196,59,29);
+  font-weight: 400;
+  font-size: 1.000rem;
+  font-style: normal;
+}
+
+.ss-send-email-receipt {
+  font-family: &quot;Roboto&quot;;
+  color: rgb(80,80,80);
+  font-weight: 400;
+  font-size: 1.000rem;
+  font-style: normal;
+}
+
+.ss-password-warning {
+  font-family: &quot;Arial&quot;;
+  color: rgb(119,119,119);
+  font-weight: 400;
+  font-size: 1.000rem;
+  font-style: italic;
+}
+
+.disclaimer {
+  font-family: &quot;Arial&quot;;
+  color: rgb(119,119,119);
+  font-weight: 400;
+  font-size: 0.850rem;
+  font-style: normal;
+}
+
+.ss-footer-content {
+  font-family: &quot;Arial&quot;;
+  color: rgb(80,80,80);
+  font-weight: 400;
+  font-size: 1.000rem;
+  font-style: normal;
+}
+
+.progress-label {
+  font-family: &quot;Roboto&quot;;
+  color: rgb(140,140,140);
+  font-weight: 400;
+  font-size: 1.000rem;
+  font-style: normal;
+}
+
+a:link {
+  color: rgb(0,0,238);
+}
+
+a:visited {
+  color: rgb(85,26,139);
+}
+
+a:active {
+  color: rgb(252,0,0);
+}
+
+input[type='text'], input:not([type]), textarea {
+  font-size: 1.000rem;
+}
+
+.error, .required, .errorbox-bad {
+  border-color: rgb(196,59,29);
+}
+
+.jfk-progressBar-nonBlocking .progress-bar-thumb {
+  background-color: rgb(140,140,140);
+}
+
+.ss-logo-image {
+  background-image: url('//ssl.gstatic.com/docs/forms/forms_logo_2_small_dark.png');
+  background-size: 108px 21px;
+  width: 108px;
+  height: 21px;
+}
+
+@media screen and (-webkit-device-pixel-ratio: 2) {
+.ss-logo-image {
+  background-image: url('//ssl.gstatic.com/docs/forms/forms_logo_2_small_dark_2x.png');
+}
+}
+
+&lt;/style&gt;
+
+
+
+
+&lt;script type=&quot;text/javascript&quot;&gt;
+          /**
+ * @license
+ *
+ * H5F 1.1.1
+ * See https://github.com/ryanseddon/H5F/ for details.
+ *
+ * Copyright (c) 2013 Ryan Seddon
+ *
+ * Permission is hereby granted, free of charge, to any person
+ * obtaining a copy of this software and associated documentation
+ * files (the &quot;Software&quot;), to deal in the Software without
+ * restriction, including without limitation the rights to use,
+ * copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the
+ * Software is furnished to do so, subject to the following
+ * conditions:
+ *
+ * The above copyright notice and this permission notice shall be
+ * included in all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND,
+ * EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
+ * OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+ * NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT
+ * HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
+ * WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+ * FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
+ * OTHER DEALINGS IN THE SOFTWARE.
+ */
+(function(e,t){&quot;function&quot;==typeof define&amp;amp;&amp;amp;define.amd?define(t):&quot;object&quot;==typeof module&amp;amp;&amp;amp;module.exports?module.exports=t():e.H5F=t()})(this,function(){var e,t,a,i,n,r,l,s,o,u,d,c,v,p,f,m,b,h,g,y,w,C,N,A,E,$,x=document,k=x.createElement(&quot;input&quot;),q=/^[a-zA-Z0-9.!#$%&amp;amp;'*+-\/=?\^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/,M=/[a-z][\-\.+a-z]*:\/\//i,L=/^(input|select|textarea)$/i;return r=function(e,t){var a=!e.nodeType||!1,i={validClass:&quot;valid&quot;,invalidClass:&quot;error&quot;,requiredClass:&quot;required&quot;,placeholderClass:&quot;placeholder&quot;,onSubmit:Function.prototype,onInvalid:Function.prototype};if(&quot;object&quot;==typeof t)for(var r in i)t[r]===void 0&amp;amp;&amp;amp;(t[r]=i[r]);if(n=t||i,a)for(var s=0,o=e.length;o&amp;gt;s;s++)l(e[s]);else l(e)},l=function(a){var i,r=a.elements,l=r.length,c=!!a.attributes.novalidate;if(g(a,&quot;invalid&quot;,o,!0),g(a,&quot;blur&quot;,o,!0),g(a,&quot;input&quot;,o,!0),g(a,&quot;keyup&quot;,o,!0),g(a,&quot;focus&quot;,o,!0),g(a,&quot;change&quot;,o,!0),g(a,&quot;click&quot;,u,!0),g(a,&quot;submit&quot;,function(i){return e=!0,t||c||a.checkValidity()?(n.onSubmit.call(a,i),void 0):(w(i),void 0)},!1),!v())for(a.checkValidity=function(){return d(a)};l--;)i=!!r[l].attributes.required,&quot;fieldset&quot;!==r[l].nodeName.toLowerCase()&amp;amp;&amp;amp;s(r[l])},s=function(e){var t=e,a=h(t),n={type:t.getAttribute(&quot;type&quot;),pattern:t.getAttribute(&quot;pattern&quot;),placeholder:t.getAttribute(&quot;placeholder&quot;)},r=/^(email|url)$/i,l=/^(input|keyup)$/i,s=r.test(n.type)?n.type:n.pattern?n.pattern:!1,o=p(t,s),u=m(t,&quot;step&quot;),v=m(t,&quot;min&quot;),b=m(t,&quot;max&quot;),g=!(&quot;&quot;===t.validationMessage||void 0===t.validationMessage);t.checkValidity=function(){return d.call(this,t)},t.setCustomValidity=function(e){c.call(t,e)},t.validity={valueMissing:a,patternMismatch:o,rangeUnderflow:v,rangeOverflow:b,stepMismatch:u,customError:g,valid:!(a||o||u||v||b||g)},n.placeholder&amp;amp;&amp;amp;!l.test(i)&amp;amp;&amp;amp;f(t)},o=function(e){var t=C(e)||e,a=/^(input|keyup|focusin|focus|change)$/i,r=/^(submit|image|button|reset)$/i,l=/^(checkbox|radio)$/i,u=!0;!L.test(t.nodeName)||r.test(t.type)||r.test(t.nodeName)||(i=e.type,v()||s(t),t.validity.valid&amp;amp;&amp;amp;(&quot;&quot;!==t.value||l.test(t.type))||t.value!==t.getAttribute(&quot;placeholder&quot;)&amp;amp;&amp;amp;t.validity.valid?(A(t,[n.invalidClass,n.requiredClass]),N(t,n.validClass)):a.test(i)?t.validity.valueMissing&amp;amp;&amp;amp;A(t,[n.requiredClass,n.invalidClass,n.validClass]):t.validity.valueMissing?(A(t,[n.invalidClass,n.validClass]),N(t,n.requiredClass)):t.validity.valid||(A(t,[n.validClass,n.requiredClass]),N(t,n.invalidClass)),&quot;input&quot;===i&amp;amp;&amp;amp;u&amp;amp;&amp;amp;(y(t.form,&quot;keyup&quot;,o,!0),u=!1))},d=function(t){var a,i,r,l,s,u=!1;if(&quot;form&quot;===t.nodeName.toLowerCase()){a=t.elements;for(var d=0,c=a.length;c&amp;gt;d;d++)i=a[d],r=!!i.attributes.disabled,l=!!i.attributes.required,s=!!i.attributes.pattern,&quot;fieldset&quot;!==i.nodeName.toLowerCase()&amp;amp;&amp;amp;!r&amp;amp;&amp;amp;(l||s&amp;amp;&amp;amp;l)&amp;amp;&amp;amp;(o(i),i.validity.valid||u||(e&amp;amp;&amp;amp;i.focus(),u=!0,n.onInvalid.call(t,i)));return!u}return o(t),t.validity.valid},c=function(e){var t=this;t.validationMessage=e},u=function(e){var a=C(e);a.attributes.formnovalidate&amp;amp;&amp;amp;&quot;submit&quot;===a.type&amp;amp;&amp;amp;(t=!0)},v=function(){return E(k,&quot;validity&quot;)&amp;amp;&amp;amp;E(k,&quot;checkValidity&quot;)},p=function(e,t){if(&quot;email&quot;===t)return!q.test(e.value);if(&quot;url&quot;===t)return!M.test(e.value);if(t){var i=e.getAttribute(&quot;placeholder&quot;),n=e.value;return a=RegExp(&quot;^(?:&quot;+t+&quot;)$&quot;),n===i?!1:&quot;&quot;===n?!1:!a.test(e.value)}return!1},f=function(e){var t={placeholder:e.getAttribute(&quot;placeholder&quot;)},a=/^(focus|focusin|submit)$/i,r=/^(input|textarea)$/i,l=/^password$/i,s=!!(&quot;placeholder&quot;in k);s||!r.test(e.nodeName)||l.test(e.type)||(&quot;&quot;!==e.value||a.test(i)?e.value===t.placeholder&amp;amp;&amp;amp;a.test(i)&amp;amp;&amp;amp;(e.value=&quot;&quot;,A(e,n.placeholderClass)):(e.value=t.placeholder,g(e.form,&quot;submit&quot;,function(){i=&quot;submit&quot;,f(e)},!0),N(e,n.placeholderClass)))},m=function(e,t){var a=parseInt(e.getAttribute(&quot;min&quot;),10)||0,i=parseInt(e.getAttribute(&quot;max&quot;),10)||!1,n=parseInt(e.getAttribute(&quot;step&quot;),10)||1,r=parseInt(e.value,10),l=(r-a)%n;return h(e)||isNaN(r)?&quot;number&quot;===e.getAttribute(&quot;type&quot;)?!0:!1:&quot;step&quot;===t?e.getAttribute(&quot;step&quot;)?0!==l:!1:&quot;min&quot;===t?e.getAttribute(&quot;min&quot;)?a&amp;gt;r:!1:&quot;max&quot;===t?e.getAttribute(&quot;max&quot;)?r&amp;gt;i:!1:void 0},b=function(e){var t=!!e.attributes.required;return t?h(e):!1},h=function(e){var t=e.getAttribute(&quot;placeholder&quot;),a=/^(checkbox|radio)$/i,i=!!e.attributes.required;return!(!i||&quot;&quot;!==e.value&amp;amp;&amp;amp;e.value!==t&amp;amp;&amp;amp;(!a.test(e.type)||$(e)))},g=function(e,t,a,i){E(window,&quot;addEventListener&quot;)?e.addEventListener(t,a,i):E(window,&quot;attachEvent&quot;)&amp;amp;&amp;amp;window.event!==void 0&amp;amp;&amp;amp;(&quot;blur&quot;===t?t=&quot;focusout&quot;:&quot;focus&quot;===t&amp;amp;&amp;amp;(t=&quot;focusin&quot;),e.attachEvent(&quot;on&quot;+t,a))},y=function(e,t,a,i){E(window,&quot;removeEventListener&quot;)?e.removeEventListener(t,a,i):E(window,&quot;detachEvent&quot;)&amp;amp;&amp;amp;window.event!==void 0&amp;amp;&amp;amp;e.detachEvent(&quot;on&quot;+t,a)},w=function(e){e=e||window.event,e.stopPropagation&amp;amp;&amp;amp;e.preventDefault?(e.stopPropagation(),e.preventDefault()):(e.cancelBubble=!0,e.returnValue=!1)},C=function(e){return e=e||window.event,e.target||e.srcElement},N=function(e,t){var a;e.className?(a=RegExp(&quot;(^|\\s)&quot;+t+&quot;(\\s|$)&quot;),a.test(e.className)||(e.className+=&quot; &quot;+t)):e.className=t},A=function(e,t){var a,i,n=&quot;object&quot;==typeof t?t.length:1,r=n;if(e.className)if(e.className===t)e.className=&quot;&quot;;else for(;n--;)a=RegExp(&quot;(^|\\s)&quot;+(r&amp;gt;1?t[n]:t)+&quot;(\\s|$)&quot;),i=e.className.match(a),i&amp;amp;&amp;amp;3===i.length&amp;amp;&amp;amp;(e.className=e.className.replace(a,i[1]&amp;amp;&amp;amp;i[2]?&quot; &quot;:&quot;&quot;))},E=function(e,t){var a=typeof e[t],i=RegExp(&quot;^function|object$&quot;,&quot;i&quot;);return!!(i.test(a)&amp;amp;&amp;amp;e[t]||&quot;unknown&quot;===a)},$=function(e){for(var t=document.getElementsByName(e.name),a=0;t.length&amp;gt;a;a++)if(t[a].checked)return!0;return!1},{setup:r}});
+
+        &lt;/script&gt;
+
+
+
+&lt;div&gt;
+
+
+
+
+
+
+
+
+
+&lt;div class=&quot;ss-form-container&quot;&gt;&lt;div class=&quot;ss-header-image-container&quot;&gt;&lt;div class=&quot;ss-header-image-image&quot;&gt;&lt;div class=&quot;ss-header-image-sizer&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;div class=&quot;ss-top-of-page&quot;&gt;&lt;div class=&quot;ss-form-heading&quot;&gt;&lt;h1 class=&quot;ss-form-title&quot;&gt;Sample Google Form Field Title&lt;/h1&gt;
+&lt;div class=&quot;ss-form-desc ss-no-ignore-whitespace&quot;&gt;Sample form description below title&lt;/div&gt;
+
+&lt;div class=&quot;ss-required-asterisk&quot;&gt;* Required&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;div class=&quot;ss-form&quot;&gt;&lt;form action=&quot;https://docs.google.com/forms/d/1ORNtwncIS7j2NkgZSmHSwUimHoUM9Vvo4n0RBims8Hk/formResponse?hl=en&quot; method=&quot;POST&quot; id=&quot;ss-form&quot; target=&quot;_self&quot; onsubmit=&quot;&quot;&gt;&lt;ol&gt;
+&lt;div class=&quot;ss-form-question errorbox-good&quot;&gt;
+&lt;div class=&quot;ss-item ss-item-required ss-text&quot;&gt;&lt;div class=&quot;ss-form-entry&quot;&gt;
+&lt;label class=&quot;ss-q-item-label&quot; for=&quot;entry_455125655&quot;&gt;&lt;div class=&quot;ss-q-title&quot;&gt;Sample text field
+&lt;label for=&quot;itemView.getDomIdToLabel()&quot;&gt;&lt;/label&gt;
+&lt;span class=&quot;ss-required-asterisk&quot;&gt;*&lt;/span&gt;&lt;/div&gt;
+&lt;div class=&quot;ss-q-help ss-secondary-text&quot;&gt;&lt;/div&gt;&lt;/label&gt;
+&lt;input type=&quot;text&quot; name=&quot;entry.455125655&quot; value=&quot;&quot; class=&quot;ss-q-short&quot; id=&quot;entry_455125655&quot;&gt;
+&lt;div class=&quot;error-message&quot;&gt;This field is required.&lt;/div&gt;
+&lt;div class=&quot;required-message&quot;&gt;This is a required question&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt; &lt;div class=&quot;ss-form-question errorbox-good&quot;&gt;
+&lt;div class=&quot;ss-item ss-item-required ss-paragraph-text&quot;&gt;&lt;div class=&quot;ss-form-entry&quot;&gt;
+&lt;label class=&quot;ss-q-item-label&quot; for=&quot;entry_1675101201&quot;&gt;&lt;div class=&quot;ss-q-title&quot;&gt;Sample paragraph field
+&lt;label for=&quot;itemView.getDomIdToLabel()&quot;&gt;&lt;/label&gt;
+&lt;span class=&quot;ss-required-asterisk&quot;&gt;*&lt;/span&gt;&lt;/div&gt;
+&lt;div class=&quot;ss-q-help ss-secondary-text&quot;&gt;&lt;/div&gt;&lt;/label&gt;
+&lt;textarea name=&quot;entry.1675101201&quot; rows=&quot;8&quot; cols=&quot;0&quot; class=&quot;ss-q-long&quot; id=&quot;entry_1675101201&quot;&gt;&lt;/textarea&gt;
+&lt;div class=&quot;error-message&quot;&gt;&lt;/div&gt;
+&lt;div class=&quot;required-message&quot;&gt;This is a required question&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt; &lt;div class=&quot;ss-form-question errorbox-good&quot;&gt;
+&lt;div class=&quot;ss-item  ss-scale&quot;&gt;&lt;div class=&quot;ss-form-entry&quot;&gt;
+&lt;label class=&quot;ss-q-item-label&quot; for=&quot;entry_10618088&quot;&gt;&lt;div class=&quot;ss-q-title&quot;&gt;Sample scale example
+&lt;/div&gt;
+&lt;div class=&quot;ss-q-help ss-secondary-text&quot;&gt;&lt;/div&gt;&lt;/label&gt;
+
+&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;ss-scalenumbers&quot;&gt;&lt;/td&gt;
+&lt;td class=&quot;ss-scalenumbers&quot;&gt;&lt;label class=&quot;ss-scalenumber&quot; for=&quot;group_672125471_1&quot;&gt;1&lt;/label&gt;&lt;/td&gt; &lt;td class=&quot;ss-scalenumbers&quot;&gt;&lt;label class=&quot;ss-scalenumber&quot; for=&quot;group_672125471_2&quot;&gt;2&lt;/label&gt;&lt;/td&gt; &lt;td class=&quot;ss-scalenumbers&quot;&gt;&lt;label class=&quot;ss-scalenumber&quot; for=&quot;group_672125471_3&quot;&gt;3&lt;/label&gt;&lt;/td&gt; &lt;td class=&quot;ss-scalenumbers&quot;&gt;&lt;label class=&quot;ss-scalenumber&quot; for=&quot;group_672125471_4&quot;&gt;4&lt;/label&gt;&lt;/td&gt; &lt;td class=&quot;ss-scalenumbers&quot;&gt;&lt;label class=&quot;ss-scalenumber&quot; for=&quot;group_672125471_5&quot;&gt;5&lt;/label&gt;&lt;/td&gt;
+&lt;td class=&quot;ss-scalenumbers&quot;&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td class=&quot;ss-scalerow ss-leftlabel&quot;&gt;&lt;div class=&quot;aria-todo&quot;&gt;Good&lt;/div&gt;&lt;/td&gt;
+&lt;td class=&quot;ss-scalerow&quot;&gt;&lt;div class=&quot;ss-scalerow-fieldcell&quot;&gt;&lt;input type=&quot;radio&quot; name=&quot;entry.672125471&quot; value=&quot;1&quot; id=&quot;group_672125471_1&quot; class=&quot;ss-q-radio&quot;&gt;&lt;/div&gt;&lt;/td&gt; &lt;td class=&quot;ss-scalerow&quot;&gt;&lt;div class=&quot;ss-scalerow-fieldcell&quot;&gt;&lt;input type=&quot;radio&quot; name=&quot;entry.672125471&quot; value=&quot;2&quot; id=&quot;group_672125471_2&quot; class=&quot;ss-q-radio&quot;&gt;&lt;/div&gt;&lt;/td&gt; &lt;td class=&quot;ss-scalerow&quot;&gt;&lt;div class=&quot;ss-scalerow-fieldcell&quot;&gt;&lt;input type=&quot;radio&quot; name=&quot;entry.672125471&quot; value=&quot;3&quot; id=&quot;group_672125471_3&quot; class=&quot;ss-q-radio&quot;&gt;&lt;/div&gt;&lt;/td&gt; &lt;td class=&quot;ss-scalerow&quot;&gt;&lt;div class=&quot;ss-scalerow-fieldcell&quot;&gt;&lt;input type=&quot;radio&quot; name=&quot;entry.672125471&quot; value=&quot;4&quot; id=&quot;group_672125471_4&quot; class=&quot;ss-q-radio&quot;&gt;&lt;/div&gt;&lt;/td&gt; &lt;td class=&quot;ss-scalerow&quot;&gt;&lt;div class=&quot;ss-scalerow-fieldcell&quot;&gt;&lt;input type=&quot;radio&quot; name=&quot;entry.672125471&quot; value=&quot;5&quot; id=&quot;group_672125471_5&quot; class=&quot;ss-q-radio&quot;&gt;&lt;/div&gt;&lt;/td&gt;
+&lt;td class=&quot;ss-scalerow ss-rightlabel&quot;&gt;Excellent&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;div class=&quot;required-message&quot;&gt;This is a required question&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt; &lt;div class=&quot;ss-form-question errorbox-good&quot;&gt;
+&lt;div class=&quot;ss-item  ss-grid&quot;&gt;&lt;div class=&quot;ss-form-entry&quot;&gt;
+&lt;label class=&quot;ss-q-item-label&quot; for=&quot;entry_1398923209&quot;&gt;&lt;div class=&quot;ss-q-title&quot;&gt;Sample grid example
+&lt;/div&gt;
+&lt;div class=&quot;ss-q-help ss-secondary-text&quot;&gt;&lt;/div&gt;&lt;/label&gt;
+&lt;div&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;td class=&quot;ss-gridnumbers ss-gridrow-leftlabel&quot;&gt;&lt;/td&gt;
+&lt;td class=&quot;ss-gridnumbers&quot; style=&quot;width: 33%&quot;&gt;&lt;label class=&quot;ss-gridnumber&quot;&gt;Column 1&lt;/label&gt;&lt;/td&gt; &lt;td class=&quot;ss-gridnumbers&quot; style=&quot;width: 33%&quot;&gt;&lt;label class=&quot;ss-gridnumber&quot;&gt;Column 2&lt;/label&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/thead&gt;
+&lt;tbody&gt;&lt;tr class=&quot;ss-gridrow ss-grid-row-odd&quot;&gt;&lt;td class=&quot;ss-gridrow ss-gridrow-leftlabel&quot;&gt;Row 1&lt;/td&gt;
+&lt;td class=&quot;ss-gridrow&quot; style=&quot;width: 33%&quot;&gt;&lt;label class=&quot;ss-grid-button-label&quot;&gt;&lt;div class=&quot;ss-grid-button-wrapper&quot;&gt;&lt;input type=&quot;radio&quot; name=&quot;entry.270314126&quot; value=&quot;Column 1&quot; id=&quot;group_270314126_1&quot; class=&quot;ss-q-radio&quot;&gt;&lt;/div&gt;&lt;/label&gt;&lt;/td&gt; &lt;td class=&quot;ss-gridrow&quot; style=&quot;width: 33%&quot;&gt;&lt;label class=&quot;ss-grid-button-label&quot;&gt;&lt;div class=&quot;ss-grid-button-wrapper&quot;&gt;&lt;input type=&quot;radio&quot; name=&quot;entry.270314126&quot; value=&quot;Column 2&quot; id=&quot;group_270314126_2&quot; class=&quot;ss-q-radio&quot;&gt;&lt;/div&gt;&lt;/label&gt;&lt;/td&gt;&lt;/tr&gt; &lt;tr class=&quot;ss-gridrow ss-grid-row-even&quot;&gt;&lt;td class=&quot;ss-gridrow ss-gridrow-leftlabel&quot;&gt;Row 2&lt;/td&gt;
+&lt;td class=&quot;ss-gridrow&quot; style=&quot;width: 33%&quot;&gt;&lt;label class=&quot;ss-grid-button-label&quot;&gt;&lt;div class=&quot;ss-grid-button-wrapper&quot;&gt;&lt;input type=&quot;radio&quot; name=&quot;entry.808743161&quot; value=&quot;Column 1&quot; id=&quot;group_808743161_1&quot; class=&quot;ss-q-radio&quot;&gt;&lt;/div&gt;&lt;/label&gt;&lt;/td&gt; &lt;td class=&quot;ss-gridrow&quot; style=&quot;width: 33%&quot;&gt;&lt;label class=&quot;ss-grid-button-label&quot;&gt;&lt;div class=&quot;ss-grid-button-wrapper&quot;&gt;&lt;input type=&quot;radio&quot; name=&quot;entry.808743161&quot; value=&quot;Column 2&quot; id=&quot;group_808743161_2&quot; class=&quot;ss-q-radio&quot;&gt;&lt;/div&gt;&lt;/label&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;div class=&quot;error-message&quot;&gt;&lt;/div&gt;
+&lt;div class=&quot;required-message&quot;&gt;Please enter one response per row&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt; &lt;div class=&quot;ss-form-question errorbox-good&quot;&gt;
+&lt;div class=&quot;ss-item  ss-radio&quot;&gt;&lt;div class=&quot;ss-form-entry&quot;&gt;
+&lt;label class=&quot;ss-q-item-label&quot; for=&quot;entry_1885690268&quot;&gt;&lt;div class=&quot;ss-q-title&quot;&gt;Sample multiple choise
+&lt;/div&gt;
+&lt;div class=&quot;ss-q-help ss-secondary-text&quot;&gt;&lt;/div&gt;&lt;/label&gt;
+
+&lt;ul&gt;&lt;li&gt;&lt;label&gt;&lt;span class=&quot;ss-choice-item-control goog-inline-block&quot;&gt;&lt;input type=&quot;radio&quot; name=&quot;entry.128021291&quot; value=&quot;Option 1&quot; id=&quot;group_128021291_1&quot; class=&quot;ss-q-radio&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;ss-choice-label&quot;&gt;Option 1&lt;/span&gt;
+&lt;/label&gt;&lt;/li&gt; &lt;li&gt;&lt;label&gt;&lt;span class=&quot;ss-choice-item-control goog-inline-block&quot;&gt;&lt;input type=&quot;radio&quot; name=&quot;entry.128021291&quot; value=&quot;Option 2&quot; id=&quot;group_128021291_2&quot; class=&quot;ss-q-radio&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;ss-choice-label&quot;&gt;Option 2&lt;/span&gt;
+&lt;/label&gt;&lt;/li&gt; &lt;li&gt;&lt;label&gt;&lt;span class=&quot;ss-choice-item-control goog-inline-block&quot;&gt;&lt;input type=&quot;radio&quot; name=&quot;entry.128021291&quot; value=&quot;Option 3&quot; id=&quot;group_128021291_3&quot; class=&quot;ss-q-radio&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;ss-choice-label&quot;&gt;Option 3&lt;/span&gt;
+&lt;/label&gt;&lt;/li&gt; &lt;li&gt;&lt;label&gt;&lt;span class=&quot;ss-choice-item-control goog-inline-block&quot;&gt;&lt;input type=&quot;radio&quot; name=&quot;entry.128021291&quot; value=&quot;Option 4&quot; id=&quot;group_128021291_4&quot; class=&quot;ss-q-radio&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;ss-choice-label&quot;&gt;Option 4&lt;/span&gt;
+&lt;/label&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;div class=&quot;error-message&quot;&gt;&lt;/div&gt;
+&lt;div class=&quot;required-message&quot;&gt;This is a required question&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt; &lt;div class=&quot;ss-form-question errorbox-good&quot;&gt;
+&lt;div class=&quot;ss-item  ss-date&quot;&gt;&lt;div class=&quot;ss-form-entry&quot;&gt;
+&lt;label class=&quot;ss-q-item-label&quot; for=&quot;entry_1320265987&quot;&gt;&lt;div class=&quot;ss-q-title&quot;&gt;Sample date picker
+&lt;/div&gt;
+&lt;div class=&quot;ss-q-help ss-secondary-text&quot;&gt;&lt;/div&gt;&lt;/label&gt;
+&lt;input type=&quot;date&quot; name=&quot;entry.1320265987&quot; value=&quot;&quot; class=&quot;ss-q-date&quot; id=&quot;entry_1320265987&quot;&gt;
+&lt;div class=&quot;required-message&quot;&gt;This is a required question&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt; &lt;div class=&quot;ss-form-question errorbox-good&quot;&gt;
+&lt;div class=&quot;ss-item  ss-checkbox&quot;&gt;&lt;div class=&quot;ss-form-entry&quot;&gt;
+&lt;label class=&quot;ss-q-item-label&quot; for=&quot;entry_788297674&quot;&gt;&lt;div class=&quot;ss-q-title&quot;&gt;Sample check box
+&lt;/div&gt;
+&lt;div class=&quot;ss-q-help ss-secondary-text&quot;&gt;&lt;/div&gt;&lt;/label&gt;
+
+&lt;ul&gt;&lt;li&gt;&lt;label&gt;&lt;span class=&quot;ss-choice-item-control goog-inline-block&quot;&gt;&lt;input type=&quot;checkbox&quot; name=&quot;entry.798143981&quot; value=&quot;Option 1&quot; id=&quot;group_798143981_1&quot; class=&quot;ss-q-checkbox&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;ss-choice-label&quot;&gt;Option 1&lt;/span&gt;
+&lt;/label&gt;&lt;/li&gt; &lt;li&gt;&lt;label&gt;&lt;span class=&quot;ss-choice-item-control goog-inline-block&quot;&gt;&lt;input type=&quot;checkbox&quot; name=&quot;entry.798143981&quot; value=&quot;Option 2&quot; id=&quot;group_798143981_2&quot; class=&quot;ss-q-checkbox&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;ss-choice-label&quot;&gt;Option 2&lt;/span&gt;
+&lt;/label&gt;&lt;/li&gt; &lt;li&gt;&lt;label&gt;&lt;span class=&quot;ss-choice-item-control goog-inline-block&quot;&gt;&lt;input type=&quot;checkbox&quot; name=&quot;entry.798143981&quot; value=&quot;Option 3&quot; id=&quot;group_798143981_3&quot; class=&quot;ss-q-checkbox&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;ss-choice-label&quot;&gt;Option 3&lt;/span&gt;
+&lt;/label&gt;&lt;/li&gt; &lt;li&gt;&lt;label&gt;&lt;span class=&quot;ss-choice-item-control goog-inline-block&quot;&gt;&lt;input type=&quot;checkbox&quot; name=&quot;entry.798143981&quot; value=&quot;Option 4&quot; id=&quot;group_798143981_4&quot; class=&quot;ss-q-checkbox&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;ss-choice-label&quot;&gt;Option 4&lt;/span&gt;
+&lt;/label&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;div class=&quot;error-message&quot;&gt;&lt;/div&gt;
+&lt;div class=&quot;required-message&quot;&gt;This is a required question&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt; &lt;div class=&quot;ss-form-question errorbox-good&quot;&gt;
+&lt;div class=&quot;ss-item  ss-time&quot;&gt;&lt;div class=&quot;ss-form-entry&quot;&gt;
+&lt;label class=&quot;ss-q-item-label&quot; for=&quot;entry_936991533&quot;&gt;&lt;div class=&quot;ss-q-title&quot;&gt;Sample time picker
+&lt;/div&gt;
+&lt;div class=&quot;ss-q-help ss-secondary-text&quot;&gt;&lt;/div&gt;&lt;/label&gt;
+&lt;input type=&quot;time&quot; name=&quot;entry.936991533&quot; value=&quot;&quot; class=&quot;ss-q-time&quot; id=&quot;entry_936991533&quot;&gt;
+&lt;div class=&quot;ss-q-time-hint ss-secondary-text&quot;&gt;Example: 11:00 AM&lt;/div&gt;
+&lt;div class=&quot;required-message&quot;&gt;This is a required question&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt; &lt;div class=&quot;ss-form-question errorbox-good&quot;&gt;
+&lt;div class=&quot;ss-item  ss-select&quot;&gt;&lt;div class=&quot;ss-form-entry&quot;&gt;
+&lt;label class=&quot;ss-q-item-label&quot; for=&quot;entry_98684717&quot;&gt;&lt;div class=&quot;ss-q-title&quot;&gt;Sample select from list
+&lt;/div&gt;
+&lt;div class=&quot;ss-q-help ss-secondary-text&quot;&gt;&lt;/div&gt;&lt;/label&gt;
+&lt;select name=&quot;entry.98684717&quot;&gt;&lt;option value=&quot;&quot;&gt;&lt;/option&gt;
+&lt;option value=&quot;Option 1&quot;&gt;Option 1&lt;/option&gt; &lt;option value=&quot;Option 2&quot;&gt;Option 2&lt;/option&gt; &lt;option value=&quot;Option 3&quot;&gt;Option 3&lt;/option&gt; &lt;option value=&quot;Option 4&quot;&gt;Option 4&lt;/option&gt;&lt;/select&gt;
+&lt;div class=&quot;required-message&quot;&gt;This is a required question&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;input type=&quot;hidden&quot; name=&quot;draftResponse&quot; value=&quot;[,,&amp;quot;5452897177873404411&amp;quot;]
+&quot;&gt;
+&lt;input type=&quot;hidden&quot; name=&quot;pageHistory&quot; value=&quot;0&quot;&gt;
+
+&lt;input type=&quot;hidden&quot; name=&quot;fvv&quot; value=&quot;0&quot;&gt;
+
+
+&lt;input type=&quot;hidden&quot; name=&quot;fbzx&quot; value=&quot;5452897177873404411&quot;&gt;
+
+&lt;div class=&quot;ss-item ss-navigate&quot;&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;ss-form-entry goog-inline-block&quot;&gt;
+&lt;input type=&quot;submit&quot; name=&quot;submit&quot; value=&quot;Submit&quot; id=&quot;ss-submit&quot; class=&quot;jfk-button jfk-button-action &quot;&gt;
+&lt;div class=&quot;ss-password-warning ss-secondary-text&quot;&gt;Never submit passwords through Google Forms.&lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;&lt;/ol&gt;&lt;/form&gt;&lt;/div&gt;
+&lt;div class=&quot;ss-footer&quot;&gt;&lt;div class=&quot;ss-attribution&quot;&gt;&lt;/div&gt;
+&lt;div class=&quot;ss-legal&quot;&gt;&lt;div class=&quot;disclaimer-separator&quot;&gt;&lt;/div&gt;
+&lt;div class=&quot;disclaimer&quot;&gt;&lt;div class=&quot;powered-by-logo&quot;&gt;&lt;span class=&quot;powered-by-text&quot;&gt;Powered by&lt;/span&gt;
+&lt;a href=&quot;https://www.google.com/forms/about/?utm_source=product&amp;amp;utm_medium=forms_logo&amp;amp;utm_campaign=forms&quot;&gt;&lt;div class=&quot;ss-logo-container ss-logo-css-container&quot;&gt;&lt;div class=&quot;ss-logo-image&quot;&gt;&lt;/div&gt;
+&lt;span class=&quot;aria-only-help&quot;&gt;Google Forms&lt;/span&gt;&lt;/div&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class=&quot;ss-terms&quot;&gt;&lt;span class=&quot;disclaimer-msg&quot;&gt;This content is neither created nor endorsed by Google.&lt;/span&gt;
+&lt;br&gt;
+&lt;a href=&quot;https://docs.google.com/forms/d/1ORNtwncIS7j2NkgZSmHSwUimHoUM9Vvo4n0RBims8Hk/reportabuse?hl=en&amp;amp;source=https://docs.google.com/forms/d/1ORNtwncIS7j2NkgZSmHSwUimHoUM9Vvo4n0RBims8Hk/viewform?hl%3Den&quot;&gt;Report Abuse&lt;/a&gt;
+-
+&lt;a href=&quot;http://www.google.com/accounts/TOS&quot;&gt;Terms of Service&lt;/a&gt;
+-
+&lt;a href=&quot;http://www.google.com/google-d-s/terms.html&quot;&gt;Additional Terms&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;docs-a11y-ariascreenreader-speakable docs-offscreen&quot;&gt;&lt;/div&gt;&lt;/div&gt;
+
+
+&lt;script type='text/javascript'&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;H5F.setup(document.getElementById('ss-form'));
+          _initFormViewer(
+            &quot;[100,,[[[455125655,[[2,100,[\x22\x22]\n,\x22This field is required.\x22]\n]\n]\n]\n]\n]\n&quot;);&lt;/script&gt;&lt;/div&gt;</pre><h3>class-gform-core-controller.php::313::ConstructGoogleForm</h3><pre style="text-align:left;">
+
+
+
+
+
+
+Sample Google Form Field Title
+
+
+
+&lt;style&gt;
+body {
+  background-color: rgb(231,238,247);
+  background-image: url('//ssl.gstatic.com/docs/forms/themes/images/v1/0AX42CRMsmRFbUy03NTAzM2Q4My03ODU1LTQ2NzItODI2YS1kZmU5YzdiMzZjOGQ/blue-stripe-bg.png');
+  background-repeat: repeat;
+  background-position: left top;
+}
+
+.ss-form-container, .ss-resp-card {
+  background-color: rgb(255,255,255);
+}
+
+.ss-footer, .ss-response-footer {
+  background-color: rgb(255,255,255);
+}
+
+.ss-grid-row-odd {
+  background-color: rgb(242,242,242);
+}
+
+.ss-form-container, .ss-resp-card {
+  border-color: rgb(212,212,212);
+}
+
+.ss-form-title {
+  text-align: left;
+}
+
+.ss-form-title[dir=&quot;rtl&quot;] {
+  text-align: right;
+}
+
+.ss-form-desc {
+  text-align: left;
+}
+
+.ss-form-desc[dir=&quot;rtl&quot;] {
+  text-align: right;
+}
+
+.ss-header-image-container {
+  height: 0;
+}
+
+.ss-item {
+  font-size: 1.080rem;
+}
+
+.ss-choices {
+  font-size: 1.000rem;
+}
+
+body {
+  font-family: &quot;Roboto&quot;;
+  color: rgb(119,119,119);
+  font-weight: 400;
+  font-size: 1.080rem;
+  font-style: normal;
+}
+
+.ss-record-username-message {
+  font-family: &quot;Roboto&quot;;
+  color: rgb(119,119,119);
+  font-weight: 400;
+  font-size: 1.080rem;
+  font-style: normal;
+}
+
+.ss-form-title {
+  font-family: &quot;Roboto&quot;;
+  color: rgb(80,80,80);
+  font-weight: 400;
+  font-size: 2.460rem;
+  font-style: normal;
+}
+
+.ss-confirmation {
+  font-family: &quot;Roboto&quot;;
+  color: rgb(80,80,80);
+  font-weight: 400;
+  font-size: 2.460rem;
+  font-style: normal;
+}
+
+.ss-page-title, .ss-section-title {
+  font-family: &quot;Roboto&quot;;
+  color: rgb(80,80,80);
+  font-weight: 400;
+  font-size: 1.845rem;
+  font-style: normal;
+}
+
+.ss-form-desc, .ss-page-description, .ss-section-description {
+  font-family: &quot;Roboto&quot;;
+  color: rgb(140,140,140);
+  font-weight: 400;
+  font-size: 1.080rem;
+  font-style: normal;
+}
+
+.ss-resp-content {
+  font-family: &quot;Roboto&quot;;
+  color: rgb(119,119,119);
+  font-weight: 400;
+  font-size: 1.080rem;
+  font-style: normal;
+}
+
+.ss-q-title {
+  font-family: &quot;Roboto&quot;;
+  color: rgb(80,80,80);
+  font-weight: 700;
+  font-size: 1.080rem;
+  font-style: normal;
+}
+
+.ss-embeddable-object-container .ss-q-title {
+  font-family: &quot;Roboto&quot;;
+  color: rgb(80,80,80);
+  font-weight: 700;
+  font-size: 1.845rem;
+  font-style: normal;
+}
+
+.ss-q-help, .ss-q-time-hint {
+  font-family: &quot;Roboto&quot;;
+  color: rgb(140,140,140);
+  font-weight: 400;
+  font-size: 1.000rem;
+  font-style: normal;
+}
+
+.ss-choice-label, .video-secondary-text, .ss-gridrow-leftlabel, .ss-gridnumber, .ss-scalenumber, .ss-leftlabel, .ss-rightlabel {
+  font-family: &quot;Roboto&quot;;
+  color: rgb(80,80,80);
+  font-weight: 400;
+  font-size: 1.000rem;
+  font-style: normal;
+}
+
+.error-message, .required-message, .ss-required-asterisk {
+  font-family: &quot;Roboto&quot;;
+  color: rgb(196,59,29);
+  font-weight: 400;
+  font-size: 1.000rem;
+  font-style: normal;
+}
+
+.ss-send-email-receipt {
+  font-family: &quot;Roboto&quot;;
+  color: rgb(80,80,80);
+  font-weight: 400;
+  font-size: 1.000rem;
+  font-style: normal;
+}
+
+.ss-password-warning {
+  font-family: &quot;Arial&quot;;
+  color: rgb(119,119,119);
+  font-weight: 400;
+  font-size: 1.000rem;
+  font-style: italic;
+}
+
+.disclaimer {
+  font-family: &quot;Arial&quot;;
+  color: rgb(119,119,119);
+  font-weight: 400;
+  font-size: 0.850rem;
+  font-style: normal;
+}
+
+.ss-footer-content {
+  font-family: &quot;Arial&quot;;
+  color: rgb(80,80,80);
+  font-weight: 400;
+  font-size: 1.000rem;
+  font-style: normal;
+}
+
+.progress-label {
+  font-family: &quot;Roboto&quot;;
+  color: rgb(140,140,140);
+  font-weight: 400;
+  font-size: 1.000rem;
+  font-style: normal;
+}
+
+a:link {
+  color: rgb(0,0,238);
+}
+
+a:visited {
+  color: rgb(85,26,139);
+}
+
+a:active {
+  color: rgb(252,0,0);
+}
+
+input[type='text'], input:not([type]), textarea {
+  font-size: 1.000rem;
+}
+
+.error, .required, .errorbox-bad {
+  border-color: rgb(196,59,29);
+}
+
+.jfk-progressBar-nonBlocking .progress-bar-thumb {
+  background-color: rgb(140,140,140);
+}
+
+.ss-logo-image {
+  background-image: url('//ssl.gstatic.com/docs/forms/forms_logo_2_small_dark.png');
+  background-size: 108px 21px;
+  width: 108px;
+  height: 21px;
+}
+
+@media screen and (-webkit-device-pixel-ratio: 2) {
+.ss-logo-image {
+  background-image: url('//ssl.gstatic.com/docs/forms/forms_logo_2_small_dark_2x.png');
+}
+}
+
+&lt;/style&gt;
+
+
+
+
+&lt;script type=&quot;text/javascript&quot;&gt;
+          /**
+ * @license
+ *
+ * H5F 1.1.1
+ * See https://github.com/ryanseddon/H5F/ for details.
+ *
+ * Copyright (c) 2013 Ryan Seddon
+ *
+ * Permission is hereby granted, free of charge, to any person
+ * obtaining a copy of this software and associated documentation
+ * files (the &quot;Software&quot;), to deal in the Software without
+ * restriction, including without limitation the rights to use,
+ * copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the
+ * Software is furnished to do so, subject to the following
+ * conditions:
+ *
+ * The above copyright notice and this permission notice shall be
+ * included in all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND,
+ * EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
+ * OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+ * NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT
+ * HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
+ * WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+ * FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
+ * OTHER DEALINGS IN THE SOFTWARE.
+ */
+(function(e,t){&quot;function&quot;==typeof define&amp;amp;&amp;amp;define.amd?define(t):&quot;object&quot;==typeof module&amp;amp;&amp;amp;module.exports?module.exports=t():e.H5F=t()})(this,function(){var e,t,a,i,n,r,l,s,o,u,d,c,v,p,f,m,b,h,g,y,w,C,N,A,E,$,x=document,k=x.createElement(&quot;input&quot;),q=/^[a-zA-Z0-9.!#$%&amp;amp;'*+-\/=?\^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/,M=/[a-z][\-\.+a-z]*:\/\//i,L=/^(input|select|textarea)$/i;return r=function(e,t){var a=!e.nodeType||!1,i={validClass:&quot;valid&quot;,invalidClass:&quot;error&quot;,requiredClass:&quot;required&quot;,placeholderClass:&quot;placeholder&quot;,onSubmit:Function.prototype,onInvalid:Function.prototype};if(&quot;object&quot;==typeof t)for(var r in i)t[r]===void 0&amp;amp;&amp;amp;(t[r]=i[r]);if(n=t||i,a)for(var s=0,o=e.length;o&amp;gt;s;s++)l(e[s]);else l(e)},l=function(a){var i,r=a.elements,l=r.length,c=!!a.attributes.novalidate;if(g(a,&quot;invalid&quot;,o,!0),g(a,&quot;blur&quot;,o,!0),g(a,&quot;input&quot;,o,!0),g(a,&quot;keyup&quot;,o,!0),g(a,&quot;focus&quot;,o,!0),g(a,&quot;change&quot;,o,!0),g(a,&quot;click&quot;,u,!0),g(a,&quot;submit&quot;,function(i){return e=!0,t||c||a.checkValidity()?(n.onSubmit.call(a,i),void 0):(w(i),void 0)},!1),!v())for(a.checkValidity=function(){return d(a)};l--;)i=!!r[l].attributes.required,&quot;fieldset&quot;!==r[l].nodeName.toLowerCase()&amp;amp;&amp;amp;s(r[l])},s=function(e){var t=e,a=h(t),n={type:t.getAttribute(&quot;type&quot;),pattern:t.getAttribute(&quot;pattern&quot;),placeholder:t.getAttribute(&quot;placeholder&quot;)},r=/^(email|url)$/i,l=/^(input|keyup)$/i,s=r.test(n.type)?n.type:n.pattern?n.pattern:!1,o=p(t,s),u=m(t,&quot;step&quot;),v=m(t,&quot;min&quot;),b=m(t,&quot;max&quot;),g=!(&quot;&quot;===t.validationMessage||void 0===t.validationMessage);t.checkValidity=function(){return d.call(this,t)},t.setCustomValidity=function(e){c.call(t,e)},t.validity={valueMissing:a,patternMismatch:o,rangeUnderflow:v,rangeOverflow:b,stepMismatch:u,customError:g,valid:!(a||o||u||v||b||g)},n.placeholder&amp;amp;&amp;amp;!l.test(i)&amp;amp;&amp;amp;f(t)},o=function(e){var t=C(e)||e,a=/^(input|keyup|focusin|focus|change)$/i,r=/^(submit|image|button|reset)$/i,l=/^(checkbox|radio)$/i,u=!0;!L.test(t.nodeName)||r.test(t.type)||r.test(t.nodeName)||(i=e.type,v()||s(t),t.validity.valid&amp;amp;&amp;amp;(&quot;&quot;!==t.value||l.test(t.type))||t.value!==t.getAttribute(&quot;placeholder&quot;)&amp;amp;&amp;amp;t.validity.valid?(A(t,[n.invalidClass,n.requiredClass]),N(t,n.validClass)):a.test(i)?t.validity.valueMissing&amp;amp;&amp;amp;A(t,[n.requiredClass,n.invalidClass,n.validClass]):t.validity.valueMissing?(A(t,[n.invalidClass,n.validClass]),N(t,n.requiredClass)):t.validity.valid||(A(t,[n.validClass,n.requiredClass]),N(t,n.invalidClass)),&quot;input&quot;===i&amp;amp;&amp;amp;u&amp;amp;&amp;amp;(y(t.form,&quot;keyup&quot;,o,!0),u=!1))},d=function(t){var a,i,r,l,s,u=!1;if(&quot;form&quot;===t.nodeName.toLowerCase()){a=t.elements;for(var d=0,c=a.length;c&amp;gt;d;d++)i=a[d],r=!!i.attributes.disabled,l=!!i.attributes.required,s=!!i.attributes.pattern,&quot;fieldset&quot;!==i.nodeName.toLowerCase()&amp;amp;&amp;amp;!r&amp;amp;&amp;amp;(l||s&amp;amp;&amp;amp;l)&amp;amp;&amp;amp;(o(i),i.validity.valid||u||(e&amp;amp;&amp;amp;i.focus(),u=!0,n.onInvalid.call(t,i)));return!u}return o(t),t.validity.valid},c=function(e){var t=this;t.validationMessage=e},u=function(e){var a=C(e);a.attributes.formnovalidate&amp;amp;&amp;amp;&quot;submit&quot;===a.type&amp;amp;&amp;amp;(t=!0)},v=function(){return E(k,&quot;validity&quot;)&amp;amp;&amp;amp;E(k,&quot;checkValidity&quot;)},p=function(e,t){if(&quot;email&quot;===t)return!q.test(e.value);if(&quot;url&quot;===t)return!M.test(e.value);if(t){var i=e.getAttribute(&quot;placeholder&quot;),n=e.value;return a=RegExp(&quot;^(?:&quot;+t+&quot;)$&quot;),n===i?!1:&quot;&quot;===n?!1:!a.test(e.value)}return!1},f=function(e){var t={placeholder:e.getAttribute(&quot;placeholder&quot;)},a=/^(focus|focusin|submit)$/i,r=/^(input|textarea)$/i,l=/^password$/i,s=!!(&quot;placeholder&quot;in k);s||!r.test(e.nodeName)||l.test(e.type)||(&quot;&quot;!==e.value||a.test(i)?e.value===t.placeholder&amp;amp;&amp;amp;a.test(i)&amp;amp;&amp;amp;(e.value=&quot;&quot;,A(e,n.placeholderClass)):(e.value=t.placeholder,g(e.form,&quot;submit&quot;,function(){i=&quot;submit&quot;,f(e)},!0),N(e,n.placeholderClass)))},m=function(e,t){var a=parseInt(e.getAttribute(&quot;min&quot;),10)||0,i=parseInt(e.getAttribute(&quot;max&quot;),10)||!1,n=parseInt(e.getAttribute(&quot;step&quot;),10)||1,r=parseInt(e.value,10),l=(r-a)%n;return h(e)||isNaN(r)?&quot;number&quot;===e.getAttribute(&quot;type&quot;)?!0:!1:&quot;step&quot;===t?e.getAttribute(&quot;step&quot;)?0!==l:!1:&quot;min&quot;===t?e.getAttribute(&quot;min&quot;)?a&amp;gt;r:!1:&quot;max&quot;===t?e.getAttribute(&quot;max&quot;)?r&amp;gt;i:!1:void 0},b=function(e){var t=!!e.attributes.required;return t?h(e):!1},h=function(e){var t=e.getAttribute(&quot;placeholder&quot;),a=/^(checkbox|radio)$/i,i=!!e.attributes.required;return!(!i||&quot;&quot;!==e.value&amp;amp;&amp;amp;e.value!==t&amp;amp;&amp;amp;(!a.test(e.type)||$(e)))},g=function(e,t,a,i){E(window,&quot;addEventListener&quot;)?e.addEventListener(t,a,i):E(window,&quot;attachEvent&quot;)&amp;amp;&amp;amp;window.event!==void 0&amp;amp;&amp;amp;(&quot;blur&quot;===t?t=&quot;focusout&quot;:&quot;focus&quot;===t&amp;amp;&amp;amp;(t=&quot;focusin&quot;),e.attachEvent(&quot;on&quot;+t,a))},y=function(e,t,a,i){E(window,&quot;removeEventListener&quot;)?e.removeEventListener(t,a,i):E(window,&quot;detachEvent&quot;)&amp;amp;&amp;amp;window.event!==void 0&amp;amp;&amp;amp;e.detachEvent(&quot;on&quot;+t,a)},w=function(e){e=e||window.event,e.stopPropagation&amp;amp;&amp;amp;e.preventDefault?(e.stopPropagation(),e.preventDefault()):(e.cancelBubble=!0,e.returnValue=!1)},C=function(e){return e=e||window.event,e.target||e.srcElement},N=function(e,t){var a;e.className?(a=RegExp(&quot;(^|\\s)&quot;+t+&quot;(\\s|$)&quot;),a.test(e.className)||(e.className+=&quot; &quot;+t)):e.className=t},A=function(e,t){var a,i,n=&quot;object&quot;==typeof t?t.length:1,r=n;if(e.className)if(e.className===t)e.className=&quot;&quot;;else for(;n--;)a=RegExp(&quot;(^|\\s)&quot;+(r&amp;gt;1?t[n]:t)+&quot;(\\s|$)&quot;),i=e.className.match(a),i&amp;amp;&amp;amp;3===i.length&amp;amp;&amp;amp;(e.className=e.className.replace(a,i[1]&amp;amp;&amp;amp;i[2]?&quot; &quot;:&quot;&quot;))},E=function(e,t){var a=typeof e[t],i=RegExp(&quot;^function|object$&quot;,&quot;i&quot;);return!!(i.test(a)&amp;amp;&amp;amp;e[t]||&quot;unknown&quot;===a)},$=function(e){for(var t=document.getElementsByName(e.name),a=0;t.length&amp;gt;a;a++)if(t[a].checked)return!0;return!1},{setup:r}});
+
+        &lt;/script&gt;
+
+
+
+&lt;div&gt;
+
+
+
+
+
+
+
+
+
+&lt;div class=&quot;ss-form-container&quot;&gt;&lt;div class=&quot;ss-header-image-container&quot;&gt;&lt;div class=&quot;ss-header-image-image&quot;&gt;&lt;div class=&quot;ss-header-image-sizer&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;div class=&quot;ss-top-of-page&quot;&gt;&lt;div class=&quot;ss-form-heading&quot;&gt;&lt;h1 class=&quot;ss-form-title&quot;&gt;Sample Google Form Field Title&lt;/h1&gt;
+&lt;div class=&quot;ss-form-desc ss-no-ignore-whitespace&quot;&gt;Sample form description below title&lt;/div&gt;
+
+&lt;div class=&quot;ss-required-asterisk&quot;&gt;* Required&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;div class=&quot;ss-form&quot;&gt;&lt;form action=&quot;https://docs.google.com/forms/d/1ORNtwncIS7j2NkgZSmHSwUimHoUM9Vvo4n0RBims8Hk/formResponse?hl=en&quot; method=&quot;POST&quot; id=&quot;ss-form&quot; target=&quot;_self&quot; onsubmit=&quot;&quot;&gt;&lt;ol&gt;
+&lt;div class=&quot;ss-form-question errorbox-good&quot;&gt;
+&lt;div class=&quot;ss-item ss-item-required ss-text&quot;&gt;&lt;div class=&quot;ss-form-entry&quot;&gt;
+&lt;label class=&quot;ss-q-item-label&quot; for=&quot;entry_455125655&quot;&gt;&lt;div class=&quot;ss-q-title&quot;&gt;Sample text field
+&lt;label for=&quot;itemView.getDomIdToLabel()&quot;&gt;&lt;/label&gt;
+&lt;span class=&quot;ss-required-asterisk&quot;&gt;*&lt;/span&gt;&lt;/div&gt;
+&lt;div class=&quot;ss-q-help ss-secondary-text&quot;&gt;&lt;/div&gt;&lt;/label&gt;
+&lt;input type=&quot;text&quot; name=&quot;entry.455125655&quot; value=&quot;&quot; class=&quot;ss-q-short&quot; id=&quot;entry_455125655&quot;&gt;
+&lt;div class=&quot;error-message&quot;&gt;This field is required.&lt;/div&gt;
+&lt;div class=&quot;required-message&quot;&gt;This is a required question&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt; &lt;div class=&quot;ss-form-question errorbox-good&quot;&gt;
+&lt;div class=&quot;ss-item ss-item-required ss-paragraph-text&quot;&gt;&lt;div class=&quot;ss-form-entry&quot;&gt;
+&lt;label class=&quot;ss-q-item-label&quot; for=&quot;entry_1675101201&quot;&gt;&lt;div class=&quot;ss-q-title&quot;&gt;Sample paragraph field
+&lt;label for=&quot;itemView.getDomIdToLabel()&quot;&gt;&lt;/label&gt;
+&lt;span class=&quot;ss-required-asterisk&quot;&gt;*&lt;/span&gt;&lt;/div&gt;
+&lt;div class=&quot;ss-q-help ss-secondary-text&quot;&gt;&lt;/div&gt;&lt;/label&gt;
+&lt;textarea name=&quot;entry.1675101201&quot; rows=&quot;8&quot; cols=&quot;0&quot; class=&quot;ss-q-long&quot; id=&quot;entry_1675101201&quot;&gt;&lt;/textarea&gt;
+&lt;div class=&quot;error-message&quot;&gt;&lt;/div&gt;
+&lt;div class=&quot;required-message&quot;&gt;This is a required question&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt; &lt;div class=&quot;ss-form-question errorbox-good&quot;&gt;
+&lt;div class=&quot;ss-item  ss-scale&quot;&gt;&lt;div class=&quot;ss-form-entry&quot;&gt;
+&lt;label class=&quot;ss-q-item-label&quot; for=&quot;entry_10618088&quot;&gt;&lt;div class=&quot;ss-q-title&quot;&gt;Sample scale example
+&lt;/div&gt;
+&lt;div class=&quot;ss-q-help ss-secondary-text&quot;&gt;&lt;/div&gt;&lt;/label&gt;
+
+&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;ss-scalenumbers&quot;&gt;&lt;/td&gt;
+&lt;td class=&quot;ss-scalenumbers&quot;&gt;&lt;label class=&quot;ss-scalenumber&quot; for=&quot;group_672125471_1&quot;&gt;1&lt;/label&gt;&lt;/td&gt; &lt;td class=&quot;ss-scalenumbers&quot;&gt;&lt;label class=&quot;ss-scalenumber&quot; for=&quot;group_672125471_2&quot;&gt;2&lt;/label&gt;&lt;/td&gt; &lt;td class=&quot;ss-scalenumbers&quot;&gt;&lt;label class=&quot;ss-scalenumber&quot; for=&quot;group_672125471_3&quot;&gt;3&lt;/label&gt;&lt;/td&gt; &lt;td class=&quot;ss-scalenumbers&quot;&gt;&lt;label class=&quot;ss-scalenumber&quot; for=&quot;group_672125471_4&quot;&gt;4&lt;/label&gt;&lt;/td&gt; &lt;td class=&quot;ss-scalenumbers&quot;&gt;&lt;label class=&quot;ss-scalenumber&quot; for=&quot;group_672125471_5&quot;&gt;5&lt;/label&gt;&lt;/td&gt;
+&lt;td class=&quot;ss-scalenumbers&quot;&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td class=&quot;ss-scalerow ss-leftlabel&quot;&gt;&lt;div class=&quot;aria-todo&quot;&gt;Good&lt;/div&gt;&lt;/td&gt;
+&lt;td class=&quot;ss-scalerow&quot;&gt;&lt;div class=&quot;ss-scalerow-fieldcell&quot;&gt;&lt;input type=&quot;radio&quot; name=&quot;entry.672125471&quot; value=&quot;1&quot; id=&quot;group_672125471_1&quot; class=&quot;ss-q-radio&quot;&gt;&lt;/div&gt;&lt;/td&gt; &lt;td class=&quot;ss-scalerow&quot;&gt;&lt;div class=&quot;ss-scalerow-fieldcell&quot;&gt;&lt;input type=&quot;radio&quot; name=&quot;entry.672125471&quot; value=&quot;2&quot; id=&quot;group_672125471_2&quot; class=&quot;ss-q-radio&quot;&gt;&lt;/div&gt;&lt;/td&gt; &lt;td class=&quot;ss-scalerow&quot;&gt;&lt;div class=&quot;ss-scalerow-fieldcell&quot;&gt;&lt;input type=&quot;radio&quot; name=&quot;entry.672125471&quot; value=&quot;3&quot; id=&quot;group_672125471_3&quot; class=&quot;ss-q-radio&quot;&gt;&lt;/div&gt;&lt;/td&gt; &lt;td class=&quot;ss-scalerow&quot;&gt;&lt;div class=&quot;ss-scalerow-fieldcell&quot;&gt;&lt;input type=&quot;radio&quot; name=&quot;entry.672125471&quot; value=&quot;4&quot; id=&quot;group_672125471_4&quot; class=&quot;ss-q-radio&quot;&gt;&lt;/div&gt;&lt;/td&gt; &lt;td class=&quot;ss-scalerow&quot;&gt;&lt;div class=&quot;ss-scalerow-fieldcell&quot;&gt;&lt;input type=&quot;radio&quot; name=&quot;entry.672125471&quot; value=&quot;5&quot; id=&quot;group_672125471_5&quot; class=&quot;ss-q-radio&quot;&gt;&lt;/div&gt;&lt;/td&gt;
+&lt;td class=&quot;ss-scalerow ss-rightlabel&quot;&gt;Excellent&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;div class=&quot;required-message&quot;&gt;This is a required question&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt; &lt;div class=&quot;ss-form-question errorbox-good&quot;&gt;
+&lt;div class=&quot;ss-item  ss-grid&quot;&gt;&lt;div class=&quot;ss-form-entry&quot;&gt;
+&lt;label class=&quot;ss-q-item-label&quot; for=&quot;entry_1398923209&quot;&gt;&lt;div class=&quot;ss-q-title&quot;&gt;Sample grid example
+&lt;/div&gt;
+&lt;div class=&quot;ss-q-help ss-secondary-text&quot;&gt;&lt;/div&gt;&lt;/label&gt;
+&lt;div&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;td class=&quot;ss-gridnumbers ss-gridrow-leftlabel&quot;&gt;&lt;/td&gt;
+&lt;td class=&quot;ss-gridnumbers&quot; style=&quot;width: 33%&quot;&gt;&lt;label class=&quot;ss-gridnumber&quot;&gt;Column 1&lt;/label&gt;&lt;/td&gt; &lt;td class=&quot;ss-gridnumbers&quot; style=&quot;width: 33%&quot;&gt;&lt;label class=&quot;ss-gridnumber&quot;&gt;Column 2&lt;/label&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/thead&gt;
+&lt;tbody&gt;&lt;tr class=&quot;ss-gridrow ss-grid-row-odd&quot;&gt;&lt;td class=&quot;ss-gridrow ss-gridrow-leftlabel&quot;&gt;Row 1&lt;/td&gt;
+&lt;td class=&quot;ss-gridrow&quot; style=&quot;width: 33%&quot;&gt;&lt;label class=&quot;ss-grid-button-label&quot;&gt;&lt;div class=&quot;ss-grid-button-wrapper&quot;&gt;&lt;input type=&quot;radio&quot; name=&quot;entry.270314126&quot; value=&quot;Column 1&quot; id=&quot;group_270314126_1&quot; class=&quot;ss-q-radio&quot;&gt;&lt;/div&gt;&lt;/label&gt;&lt;/td&gt; &lt;td class=&quot;ss-gridrow&quot; style=&quot;width: 33%&quot;&gt;&lt;label class=&quot;ss-grid-button-label&quot;&gt;&lt;div class=&quot;ss-grid-button-wrapper&quot;&gt;&lt;input type=&quot;radio&quot; name=&quot;entry.270314126&quot; value=&quot;Column 2&quot; id=&quot;group_270314126_2&quot; class=&quot;ss-q-radio&quot;&gt;&lt;/div&gt;&lt;/label&gt;&lt;/td&gt;&lt;/tr&gt; &lt;tr class=&quot;ss-gridrow ss-grid-row-even&quot;&gt;&lt;td class=&quot;ss-gridrow ss-gridrow-leftlabel&quot;&gt;Row 2&lt;/td&gt;
+&lt;td class=&quot;ss-gridrow&quot; style=&quot;width: 33%&quot;&gt;&lt;label class=&quot;ss-grid-button-label&quot;&gt;&lt;div class=&quot;ss-grid-button-wrapper&quot;&gt;&lt;input type=&quot;radio&quot; name=&quot;entry.808743161&quot; value=&quot;Column 1&quot; id=&quot;group_808743161_1&quot; class=&quot;ss-q-radio&quot;&gt;&lt;/div&gt;&lt;/label&gt;&lt;/td&gt; &lt;td class=&quot;ss-gridrow&quot; style=&quot;width: 33%&quot;&gt;&lt;label class=&quot;ss-grid-button-label&quot;&gt;&lt;div class=&quot;ss-grid-button-wrapper&quot;&gt;&lt;input type=&quot;radio&quot; name=&quot;entry.808743161&quot; value=&quot;Column 2&quot; id=&quot;group_808743161_2&quot; class=&quot;ss-q-radio&quot;&gt;&lt;/div&gt;&lt;/label&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;div class=&quot;error-message&quot;&gt;&lt;/div&gt;
+&lt;div class=&quot;required-message&quot;&gt;Please enter one response per row&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt; &lt;div class=&quot;ss-form-question errorbox-good&quot;&gt;
+&lt;div class=&quot;ss-item  ss-radio&quot;&gt;&lt;div class=&quot;ss-form-entry&quot;&gt;
+&lt;label class=&quot;ss-q-item-label&quot; for=&quot;entry_1885690268&quot;&gt;&lt;div class=&quot;ss-q-title&quot;&gt;Sample multiple choise
+&lt;/div&gt;
+&lt;div class=&quot;ss-q-help ss-secondary-text&quot;&gt;&lt;/div&gt;&lt;/label&gt;
+
+&lt;ul&gt;&lt;li&gt;&lt;label&gt;&lt;span class=&quot;ss-choice-item-control goog-inline-block&quot;&gt;&lt;input type=&quot;radio&quot; name=&quot;entry.128021291&quot; value=&quot;Option 1&quot; id=&quot;group_128021291_1&quot; class=&quot;ss-q-radio&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;ss-choice-label&quot;&gt;Option 1&lt;/span&gt;
+&lt;/label&gt;&lt;/li&gt; &lt;li&gt;&lt;label&gt;&lt;span class=&quot;ss-choice-item-control goog-inline-block&quot;&gt;&lt;input type=&quot;radio&quot; name=&quot;entry.128021291&quot; value=&quot;Option 2&quot; id=&quot;group_128021291_2&quot; class=&quot;ss-q-radio&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;ss-choice-label&quot;&gt;Option 2&lt;/span&gt;
+&lt;/label&gt;&lt;/li&gt; &lt;li&gt;&lt;label&gt;&lt;span class=&quot;ss-choice-item-control goog-inline-block&quot;&gt;&lt;input type=&quot;radio&quot; name=&quot;entry.128021291&quot; value=&quot;Option 3&quot; id=&quot;group_128021291_3&quot; class=&quot;ss-q-radio&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;ss-choice-label&quot;&gt;Option 3&lt;/span&gt;
+&lt;/label&gt;&lt;/li&gt; &lt;li&gt;&lt;label&gt;&lt;span class=&quot;ss-choice-item-control goog-inline-block&quot;&gt;&lt;input type=&quot;radio&quot; name=&quot;entry.128021291&quot; value=&quot;Option 4&quot; id=&quot;group_128021291_4&quot; class=&quot;ss-q-radio&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;ss-choice-label&quot;&gt;Option 4&lt;/span&gt;
+&lt;/label&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;div class=&quot;error-message&quot;&gt;&lt;/div&gt;
+&lt;div class=&quot;required-message&quot;&gt;This is a required question&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt; &lt;div class=&quot;ss-form-question errorbox-good&quot;&gt;
+&lt;div class=&quot;ss-item  ss-date&quot;&gt;&lt;div class=&quot;ss-form-entry&quot;&gt;
+&lt;label class=&quot;ss-q-item-label&quot; for=&quot;entry_1320265987&quot;&gt;&lt;div class=&quot;ss-q-title&quot;&gt;Sample date picker
+&lt;/div&gt;
+&lt;div class=&quot;ss-q-help ss-secondary-text&quot;&gt;&lt;/div&gt;&lt;/label&gt;
+&lt;input type=&quot;date&quot; name=&quot;entry.1320265987&quot; value=&quot;&quot; class=&quot;ss-q-date&quot; id=&quot;entry_1320265987&quot;&gt;
+&lt;div class=&quot;required-message&quot;&gt;This is a required question&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt; &lt;div class=&quot;ss-form-question errorbox-good&quot;&gt;
+&lt;div class=&quot;ss-item  ss-checkbox&quot;&gt;&lt;div class=&quot;ss-form-entry&quot;&gt;
+&lt;label class=&quot;ss-q-item-label&quot; for=&quot;entry_788297674&quot;&gt;&lt;div class=&quot;ss-q-title&quot;&gt;Sample check box
+&lt;/div&gt;
+&lt;div class=&quot;ss-q-help ss-secondary-text&quot;&gt;&lt;/div&gt;&lt;/label&gt;
+
+&lt;ul&gt;&lt;li&gt;&lt;label&gt;&lt;span class=&quot;ss-choice-item-control goog-inline-block&quot;&gt;&lt;input type=&quot;checkbox&quot; name=&quot;entry.798143981&quot; value=&quot;Option 1&quot; id=&quot;group_798143981_1&quot; class=&quot;ss-q-checkbox&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;ss-choice-label&quot;&gt;Option 1&lt;/span&gt;
+&lt;/label&gt;&lt;/li&gt; &lt;li&gt;&lt;label&gt;&lt;span class=&quot;ss-choice-item-control goog-inline-block&quot;&gt;&lt;input type=&quot;checkbox&quot; name=&quot;entry.798143981&quot; value=&quot;Option 2&quot; id=&quot;group_798143981_2&quot; class=&quot;ss-q-checkbox&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;ss-choice-label&quot;&gt;Option 2&lt;/span&gt;
+&lt;/label&gt;&lt;/li&gt; &lt;li&gt;&lt;label&gt;&lt;span class=&quot;ss-choice-item-control goog-inline-block&quot;&gt;&lt;input type=&quot;checkbox&quot; name=&quot;entry.798143981&quot; value=&quot;Option 3&quot; id=&quot;group_798143981_3&quot; class=&quot;ss-q-checkbox&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;ss-choice-label&quot;&gt;Option 3&lt;/span&gt;
+&lt;/label&gt;&lt;/li&gt; &lt;li&gt;&lt;label&gt;&lt;span class=&quot;ss-choice-item-control goog-inline-block&quot;&gt;&lt;input type=&quot;checkbox&quot; name=&quot;entry.798143981&quot; value=&quot;Option 4&quot; id=&quot;group_798143981_4&quot; class=&quot;ss-q-checkbox&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;ss-choice-label&quot;&gt;Option 4&lt;/span&gt;
+&lt;/label&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;div class=&quot;error-message&quot;&gt;&lt;/div&gt;
+&lt;div class=&quot;required-message&quot;&gt;This is a required question&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt; &lt;div class=&quot;ss-form-question errorbox-good&quot;&gt;
+&lt;div class=&quot;ss-item  ss-time&quot;&gt;&lt;div class=&quot;ss-form-entry&quot;&gt;
+&lt;label class=&quot;ss-q-item-label&quot; for=&quot;entry_936991533&quot;&gt;&lt;div class=&quot;ss-q-title&quot;&gt;Sample time picker
+&lt;/div&gt;
+&lt;div class=&quot;ss-q-help ss-secondary-text&quot;&gt;&lt;/div&gt;&lt;/label&gt;
+&lt;input type=&quot;time&quot; name=&quot;entry.936991533&quot; value=&quot;&quot; class=&quot;ss-q-time&quot; id=&quot;entry_936991533&quot;&gt;
+&lt;div class=&quot;ss-q-time-hint ss-secondary-text&quot;&gt;Example: 11:00 AM&lt;/div&gt;
+&lt;div class=&quot;required-message&quot;&gt;This is a required question&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt; &lt;div class=&quot;ss-form-question errorbox-good&quot;&gt;
+&lt;div class=&quot;ss-item  ss-select&quot;&gt;&lt;div class=&quot;ss-form-entry&quot;&gt;
+&lt;label class=&quot;ss-q-item-label&quot; for=&quot;entry_98684717&quot;&gt;&lt;div class=&quot;ss-q-title&quot;&gt;Sample select from list
+&lt;/div&gt;
+&lt;div class=&quot;ss-q-help ss-secondary-text&quot;&gt;&lt;/div&gt;&lt;/label&gt;
+&lt;select name=&quot;entry.98684717&quot;&gt;&lt;option value=&quot;&quot;&gt;&lt;/option&gt;
+&lt;option value=&quot;Option 1&quot;&gt;Option 1&lt;/option&gt; &lt;option value=&quot;Option 2&quot;&gt;Option 2&lt;/option&gt; &lt;option value=&quot;Option 3&quot;&gt;Option 3&lt;/option&gt; &lt;option value=&quot;Option 4&quot;&gt;Option 4&lt;/option&gt;&lt;/select&gt;
+&lt;div class=&quot;required-message&quot;&gt;This is a required question&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;input type=&quot;hidden&quot; name=&quot;draftResponse&quot; value=&quot;[,,&amp;quot;5452897177873404411&amp;quot;]
+&quot;&gt;
+&lt;input type=&quot;hidden&quot; name=&quot;pageHistory&quot; value=&quot;0&quot;&gt;
+
+&lt;input type=&quot;hidden&quot; name=&quot;fvv&quot; value=&quot;0&quot;&gt;
+
+
+&lt;input type=&quot;hidden&quot; name=&quot;fbzx&quot; value=&quot;5452897177873404411&quot;&gt;
+
+&lt;div class=&quot;ss-item ss-navigate&quot;&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;ss-form-entry goog-inline-block&quot;&gt;
+&lt;input type=&quot;submit&quot; name=&quot;submit&quot; value=&quot;Submit&quot; id=&quot;ss-submit&quot; class=&quot;jfk-button jfk-button-action &quot;&gt;
+&lt;div class=&quot;ss-password-warning ss-secondary-text&quot;&gt;Never submit passwords through Google Forms.&lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;&lt;/ol&gt;&lt;/form&gt;&lt;/div&gt;
+&lt;div class=&quot;ss-footer&quot;&gt;&lt;div class=&quot;ss-attribution&quot;&gt;&lt;/div&gt;
+&lt;div class=&quot;ss-legal&quot;&gt;&lt;div class=&quot;disclaimer-separator&quot;&gt;&lt;/div&gt;
+&lt;div class=&quot;disclaimer&quot;&gt;&lt;div class=&quot;powered-by-logo&quot;&gt;&lt;span class=&quot;powered-by-text&quot;&gt;Powered by&lt;/span&gt;
+&lt;a href=&quot;https://www.google.com/forms/about/?utm_source=product&amp;amp;utm_medium=forms_logo&amp;amp;utm_campaign=forms&quot;&gt;&lt;div class=&quot;ss-logo-container ss-logo-css-container&quot;&gt;&lt;div class=&quot;ss-logo-image&quot;&gt;&lt;/div&gt;
+&lt;span class=&quot;aria-only-help&quot;&gt;Google Forms&lt;/span&gt;&lt;/div&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class=&quot;ss-terms&quot;&gt;&lt;span class=&quot;disclaimer-msg&quot;&gt;This content is neither created nor endorsed by Google.&lt;/span&gt;
+&lt;br&gt;
+&lt;a href=&quot;https://docs.google.com/forms/d/1ORNtwncIS7j2NkgZSmHSwUimHoUM9Vvo4n0RBims8Hk/reportabuse?hl=en&amp;amp;source=https://docs.google.com/forms/d/1ORNtwncIS7j2NkgZSmHSwUimHoUM9Vvo4n0RBims8Hk/viewform?hl%3Den&quot;&gt;Report Abuse&lt;/a&gt;
+-
+&lt;a href=&quot;http://www.google.com/accounts/TOS&quot;&gt;Terms of Service&lt;/a&gt;
+-
+&lt;a href=&quot;http://www.google.com/google-d-s/terms.html&quot;&gt;Additional Terms&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;docs-a11y-ariascreenreader-speakable docs-offscreen&quot;&gt;&lt;/div&gt;&lt;/div&gt;
+
+
+&lt;script type='text/javascript'&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;H5F.setup(document.getElementById('ss-form'));
+          _initFormViewer(
+            &quot;[100,,[[[455125655,[[2,100,[\x22\x22]\n,\x22This field is required.\x22]\n]\n]\n]\n]\n]\n&quot;);&lt;/script&gt;&lt;/div&gt;</pre><pre style="text-align:left;">11106</pre><h3>class-gform-core-controller.php::325::ConstructGoogleForm</h3><h3>class-gform-core-controller.php::373::ConstructGoogleForm</h3></div>
+<script type='text/javascript' src='http://www.googleform.mircode.com/wp-content/plugins/googleform/js/formviewer_prd.js?ver=4.2.5'></script>
+<script type='text/javascript' src='http://www.googleform.mircode.com/wp-content/themes/twentyfifteen/js/skip-link-focus-fix.js?ver=20141010'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var screenReaderText = {"expand":"<span class=\"screen-reader-text\">expand child menu<\/span>","collapse":"<span class=\"screen-reader-text\">collapse child menu<\/span>"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.googleform.mircode.com/wp-content/themes/twentyfifteen/js/functions.js?ver=20150330'></script>
+
+</body>
+</html>
